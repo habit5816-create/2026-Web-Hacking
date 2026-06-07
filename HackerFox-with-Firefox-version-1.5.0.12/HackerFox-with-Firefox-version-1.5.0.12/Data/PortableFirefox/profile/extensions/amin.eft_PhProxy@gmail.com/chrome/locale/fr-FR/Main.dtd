@@ -1,0 +1,17 @@
+<!ENTITY InBasic.Ph.ExtensionName "PhProxy - InBasic">
+<!ENTITY InBasic.Ph.Description "Ouvrir les pages bloquées en un simple clic, grâce au serveur de PhProxy">
+<!ENTITY InBasic.Ph.Main.inf1 "PhProxy - InBasic">
+<!ENTITY InBasic.Ph.Main.inf2 "Clic gauche : action personnalisée">
+<!ENTITY InBasic.Ph.Main.inf3 "Clic droit : afficher le menu">
+<!ENTITY InBasic.Ph.Main.inf4 "En cliquant, l&apos;URL de la barre d&apos;adresse sera ouverte avec le serveur proxy par défaut">
+<!ENTITY InBasic.Ph.Main.inf5 "En cliquant, l&apos;URL étant dans le presse-papiers sera ouverte avec le serveur proxy par défaut">
+<!ENTITY InBasic.Ph.Main.inf6 "En cliquant, la fenêtre de paramétrage apparaîtra">
+<!ENTITY InBasic.Ph.Main.status1 "Ouvrir la page en cours en utilisant le proxy">
+<!ENTITY InBasic.Ph.Main.status2 "Coller-et-aller sécurisé">
+<!ENTITY InBasic.Ph.Main.status3 "Coller-et-aller sécurisé dans un nouvel onglet">
+<!ENTITY InBasic.Ph.Main.status4 "Options">
+<!ENTITY InBasic.Ph.Main.status5 "Aide">
+<!ENTITY InBasic.Ph.Main.status6 "À propos">
+<!ENTITY InBasic.Ph.Main.Context.lbl1 "Ouvrir avec PhProxy">
+<!ENTITY InBasic.Ph.Main.Context.lbl2 "Ouvrir avec PhProxy dans un nouvel onglet">
+<!ENTITY InBasic.Ph.Main.Alert1 "Le presse-papiers est vide !">

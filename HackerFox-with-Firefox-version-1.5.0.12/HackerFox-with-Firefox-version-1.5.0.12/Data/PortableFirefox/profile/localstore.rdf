@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:NS1="http://mozilla.org/package/jgillick/switchproxy/rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="chrome://global/content/console.xul#ConsoleBox"
+                   mode="Errors" />
+  <RDF:Description RDF:about="chrome://browser/content/bookmarks/bookmarksManager.xul#LastVisitDate"
+                   ordinal="13"
+                   width="" />
+  <RDF:Description RDF:about="chrome://switchproxy/content/dialogs/addproxytype.xul#anon-radio"
+                   selected="false" />
+  <RDF:Description RDF:about="chrome://passwordmgr/content/passwordManager.xul">
+    <NC:persist RDF:resource="chrome://passwordmgr/content/passwordManager.xul#SignonViewerDialog"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#GBL-TB-Combined"
+                   searchType="web" />
+  <RDF:Description RDF:about="chrome://global/content/console.xul#JSConsoleWindow"
+                   screenX="10"
+                   screenY="10"
+                   width="640"
+                   height="480" />
+  <RDF:Description RDF:about="chrome://global/content/viewSource.xul">
+    <NC:persist RDF:resource="chrome://global/content/viewSource.xul#viewSource"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://browser/content/bookmarks/bookmarksManager.xul#ShortcutURL"
+                   ordinal="5"
+                   width="" />
+  <RDF:Description RDF:about="chrome://switchproxy/content/dialogs/addproxytype.xul">
+    <NC:persist RDF:resource="chrome://switchproxy/content/dialogs/addproxytype.xul#anon-radio"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://passwordmgr/content/passwordManager.xul#SignonViewerDialog"
+                   lastSelected="SignonViewerDialogPane" />
+  <RDF:Description RDF:about="chrome://browser/content/bookmarks/bookmarksPanel.xul#bookmarks-view"
+                   colinfo=" col:Name?width=&amp;hidden=&amp;ordinal=1" />
+  <RDF:Description RDF:about="chrome://mozapps/content/extensions/extensions.xul?type=extensions#extensionsView"
+                   last-selected="urn:mozilla:item:{a6fd85ed-e919-4a43-a5af-8da18bda539f}" />
+  <RDF:Description RDF:about="chrome://browser/content/bookmarks/bookmarksManager.xul#Name"
+                   ordinal="1"
+                   width=""
+                   hidden="" />
+  <RDF:Description RDF:about="chrome://browser/content/bookmarks/bookmarksManager.xul#bookmark-folders-view"
+                   colinfo=" col:Name?width=&amp;hidden=&amp;ordinal=1" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#nav-bar"
+                   currentset="back-button,forward-button,reload-button,stop-button,new-tab-button,home-button,urlbar-container,go-container,search-container" />
+  <RDF:Description RDF:about="chrome://mozapps/content/extensions/extensions.xul?type=extensions#extensionsManager"
+                   width="480"
+                   height="300"
+                   screenX="10"
+                   screenY="10" />
+  <RDF:Description RDF:about="chrome://switchproxy/content/dialogs/editproxy.xul">
+    <NC:persist RDF:resource="chrome://switchproxy/content/dialogs/editproxy.xul#networkProxyType"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#PersonalToolbar"
+                   currentset="personal-bookmarks" />
+  <RDF:Description RDF:about="chrome://browser/content/bookmarks/bookmarksManager.xul#AddDate"
+                   ordinal="9"
+                   width="" />
+  <RDF:Description RDF:about="chrome://mozapps/content/extensions/extensions.xul?type=extensions">
+    <NC:persist RDF:resource="chrome://mozapps/content/extensions/extensions.xul?type=extensions#extensionsView"/>
+    <NC:persist RDF:resource="chrome://mozapps/content/extensions/extensions.xul?type=extensions#extensionsManager"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$DswLo"
+                   NC:open="true" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#toolbar-menubar"
+                   currentset="menubar-items,spring,throbber-box" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#GBL-SearchBox-TBItem"
+                   width="707" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#hackBarToolbar"
+                   collapsed="true" />
+  <RDF:Description RDF:about="chrome://browser/content/bookmarks/bookmarksManager.xul">
+    <NC:persist RDF:resource="chrome://browser/content/bookmarks/bookmarksManager.xul#Name"/>
+    <NC:persist RDF:resource="chrome://browser/content/bookmarks/bookmarksManager.xul#URL"/>
+    <NC:persist RDF:resource="chrome://browser/content/bookmarks/bookmarksManager.xul#ShortcutURL"/>
+    <NC:persist RDF:resource="chrome://browser/content/bookmarks/bookmarksManager.xul#Description"/>
+    <NC:persist RDF:resource="chrome://browser/content/bookmarks/bookmarksManager.xul#AddDate"/>
+    <NC:persist RDF:resource="chrome://browser/content/bookmarks/bookmarksManager.xul#LastModDate"/>
+    <NC:persist RDF:resource="chrome://browser/content/bookmarks/bookmarksManager.xul#LastVisitDate"/>
+    <NC:persist RDF:resource="chrome://browser/content/bookmarks/bookmarksManager.xul#bookmarks-view"/>
+    <NC:persist RDF:resource="chrome://browser/content/bookmarks/bookmarksManager.xul#bookmark-folders-view"/>
+    <NC:persist RDF:resource="chrome://browser/content/bookmarks/bookmarksManager.xul#bookmark-window"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://browser/content/preferences/preferences.xul">
+    <NC:persist RDF:resource="chrome://browser/content/preferences/preferences.xul#BrowserPreferences"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$FvPhC3"
+                   NC:open="true" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#sidebar-box"
+                   src="chrome://browser/content/bookmarks/bookmarksPanel.xul"
+                   sidebarcommand=""
+                   width="" />
+  <RDF:Description RDF:about="chrome://browser/content/bookmarks/bookmarksManager.xul#bookmarks-view"
+                   colinfo=" col:Name?width=&amp;hidden=&amp;ordinal=1 col:URL?width=&amp;hidden=&amp;ordinal=3 col:ShortcutURL?width=&amp;hidden=true&amp;ordinal=5 col:Description?width=&amp;hidden=&amp;ordinal=7 col:AddDate?width=&amp;hidden=true&amp;ordinal=9 col:LastModDate?width=&amp;hidden=true&amp;ordinal=11 col:LastVisitDate?width=&amp;hidden=true&amp;ordinal=13" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#GBL-Toolbar"
+                   currentset="GBL-Toolbar-MainItem"
+                   collapsed="true" />
+  <RDF:Description RDF:about="chrome://browser/content/bookmarks/bookmarksManager.xul#URL"
+                   ordinal="3"
+                   width=""
+                   hidden="" />
+  <RDF:Description RDF:about="chrome://browser/content/bookmarks/bookmarksManager.xul#LastModDate"
+                   ordinal="11"
+                   width="" />
+  <RDF:Description RDF:about="chrome://browser/content/bookmarks/bookmarksManager.xul#Description"
+                   ordinal="7"
+                   width=""
+                   hidden="" />
+  <RDF:Description RDF:about="chrome://switchproxy/content/dialogs/editproxy.xul#networkProxyType"
+                   value="1" />
+  <RDF:Description RDF:about="NC:BookmarksRoot"
+                   NC:open="true" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#webdeveloper-toolbar"
+                   currentset="webdeveloper-disable-toolbar,webdeveloper-cookies-toolbar,webdeveloper-css-toolbar,webdeveloper-forms-toolbar,webdeveloper-images-toolbar,webdeveloper-information-toolbar,webdeveloper-miscellaneous-toolbar,webdeveloper-outline-toolbar,webdeveloper-resize-toolbar,webdeveloper-tools-toolbar,webdeveloper-view-source-toolbar,webdeveloper-options-toolbar,spring,webdeveloper-render-mode-statusbar,webdeveloper-javascript-statusbar"
+                   collapsed="true" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul">
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#main-window"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#sidebar-box"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#sidebar-title"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#webdeveloper-toolbar"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#GBL-TB-Combined"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#GBL-SearchBox-TBItem"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#GBL-Toolbar"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#hackBarToolbar"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#proxy-toolbar"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#PersonalToolbar"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#toolbar-menubar"/>
+    <NC:persist RDF:resource="chrome://browser/content/browser.xul#nav-bar"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://global/content/viewSource.xul#viewSource"
+                   width="640"
+                   height="480"
+                   screenX="10"
+                   screenY="10"
+                   sizemode="maximized" />
+  <RDF:Description RDF:about="chrome://browser/content/bookmarks/bookmarksManager.xul#bookmark-window"
+                   sizemode="maximized"
+                   height="776"
+                   width="1032" />
+  <RDF:Description RDF:about="chrome://browser/content/bookmarks/addBookmark2.xul#folder-tree"
+                   colinfo=" col:Name?width=&amp;hidden=&amp;ordinal=1" />
+  <RDF:Description RDF:about="chrome://browser/content/bookmarks/bookmarksPanel.xul">
+    <NC:persist RDF:resource="chrome://browser/content/bookmarks/bookmarksPanel.xul#bookmarks-view"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://browser/content/preferences/preferences.xul#BrowserPreferences"
+                   lastSelected="paneGeneral" />
+  <RDF:Seq RDF:about="http://mozilla.org/package/jgillick/switchproxy/rdf/all">
+    <RDF:li RDF:resource="http://mozilla.org/package/jgillick/switchproxy/rdf/all/sp_proxy_44229"/>
+    <RDF:li RDF:resource="http://mozilla.org/package/jgillick/switchproxy/rdf/all/sp_proxy_189296"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="chrome://global/content/console.xul">
+    <NC:persist RDF:resource="chrome://global/content/console.xul#ConsoleBox"/>
+    <NC:persist RDF:resource="chrome://global/content/console.xul#JSConsoleWindow"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#main-window"
+                   width="956"
+                   screenX="0"
+                   screenY="37"
+                   height="720"
+                   sizemode="maximized" />
+  <RDF:Description RDF:about="chrome://browser/content/browser.xul#proxy-toolbar"
+                   currentset="__empty" />
+  <RDF:Description RDF:about="chrome://browser/content/bookmarks/addBookmark2.xul">
+    <NC:persist RDF:resource="chrome://browser/content/bookmarks/addBookmark2.xul#folder-tree"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="http://mozilla.org/package/jgillick/switchproxy/rdf/all/sp_proxy_189296"
+                   NS1:networkProxyType="1"
+                   NS1:networkProxyHTTP="127.0.0.1"
+                   NS1:networkProxyHTTP_Port="8008"
+                   NS1:networkProxySSL="127.0.0.1"
+                   NS1:networkProxySSL_Port="8008"
+                   NS1:networkProxyFTP=""
+                   NS1:networkProxyFTP_Port=""
+                   NS1:networkProxyGopher=""
+                   NS1:networkProxyGopher_Port=""
+                   NS1:networkProxySOCKS=""
+                   NS1:networkProxySOCKS_Port=""
+                   NS1:networkProxySOCKSVersion=""
+                   NS1:networkProxyNone=""
+                   NS1:networkProxyAutoconfigURL=""
+                   NS1:name="127.0.0.1:8008" />
+  <RDF:Description RDF:about="http://mozilla.org/package/jgillick/switchproxy/rdf/all/sp_proxy_44229"
+                   NS1:networkProxyType="1"
+                   NS1:networkProxyHTTP="127.0.0.1"
+                   NS1:networkProxyHTTP_Port="8080"
+                   NS1:networkProxySSL="127.0.0.1"
+                   NS1:networkProxySSL_Port="8080"
+                   NS1:networkProxyFTP=""
+                   NS1:networkProxyFTP_Port=""
+                   NS1:networkProxyGopher=""
+                   NS1:networkProxyGopher_Port=""
+                   NS1:networkProxySOCKS=""
+                   NS1:networkProxySOCKS_Port=""
+                   NS1:networkProxySOCKSVersion=""
+                   NS1:networkProxyNone=""
+                   NS1:networkProxyAutoconfigURL=""
+                   NS1:name="127.0.0.1:8080" />
+</RDF:RDF>

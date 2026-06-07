@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://fireencrypter/skin/fireencrypter.css" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://fireencrypter/locale/fireencrypter.dtd">
+<overlay id="fireencrypter" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script src="overlay.js" />
+	<!-- Right Click Menu -->
+    <popup id="contentAreaContextMenu">
+    <menuitem id="fireencrypter_menu" label="Fire Encrypter" oncommand="openFFPromotionPopup();" accesskey="F" />
+    </popup>
+	<!-- Tools Menu -->
+	<menupopup id="menu_ToolsPopup">
+	<menuitem id="fireencrypter_menu" label="Fire Encrypter" oncommand="openFFPromotionPopup();" accesskey="F" insertbefore="prefSep" />
+	</menupopup>
+</overlay>

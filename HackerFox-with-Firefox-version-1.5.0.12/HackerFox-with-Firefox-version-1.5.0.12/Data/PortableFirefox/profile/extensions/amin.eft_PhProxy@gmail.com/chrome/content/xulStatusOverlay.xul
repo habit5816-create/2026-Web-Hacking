@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<!DOCTYPE window SYSTEM "chrome://inbasicph/locale/Main.dtd">
+<overlay id="inbasicb" 
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <script src="chrome://inbasicph/content/jBase64.js"   />   
+    <script src="chrome://inbasicph/content/jStatusOverlay.js"   />   
+    <script src="chrome://inbasicph/content/jRW.js"       />  
+    <script src="chrome://inbasicph/content/jListener.js" />  
+    <script src="chrome://inbasicph/content/jContextMenu.js" />
+
+    <popupset>
+        <tooltip id="Ph.Status.Tip4" orient="vertical" style="background-color: white" noautohide="false"   >
+                <box align="center" orient="vertical">
+                    <box>
+                             <image  src='chrome://inbasicph/skin/Main.png' />
+                             <box orient="verical" flex="1" align="center">
+                                   <description value="&InBasic.Ph.Main.inf1;" style="color: red;"/>
+                            </box>
+                            </box>
+                            <description value="&InBasic.Ph.Main.inf2;"/>
+                            <description value="&InBasic.Ph.Main.inf3;"/>
+                </box>
+        </tooltip>
+
+        <tooltip id="Ph.Status.ExternalTip" orient="vertical" style="background-color: #33DD00;"  noautohide="false"  />
+
+        <tooltip id="Ph.Status.Tip1" orient="vertical" style="background-color: #33DD00;">
+            <description value="&InBasic.Ph.Main.inf4;"/>
+        </tooltip>
+
+        <tooltip id="Ph.Status.Tip2" orient="vertical" style="background-color: #33DD00;">
+            <description value="&InBasic.Ph.Main.inf5;"/>
+        </tooltip>
+
+        <tooltip id="Ph.Status.Tip3" orient="vertical" style="background-color: #33DD00;">
+            <description value="&InBasic.Ph.Main.inf6;"/>
+        </tooltip>
+    </popupset>
+
+
+         <popup id="contentAreaContextMenu"  >
+                  <menuitem
+                                             id="context-PH1" 
+                                             label="Open By PhProxy" 
+                                             insertafter="context-openlinkintab"
+                                             src="chrome://inbasicph/skin/curTab.ico"   
+                                             oncommand="
+                                                      var sURL = typeof(gContextMenu.linkURL) == 'function'  ? gContextMenu.linkURL() : gContextMenu.linkURL;
+                                                      OpenSecure(sURL);     "
+                  />
+                  <menuitem
+                                             id="context-PH2" 
+                                             label="Open By PhProxy in New Tab" 
+                                             insertafter="context-openlinkintab"
+                                             src="chrome://inbasicph/skin/NewTab.ico"  
+                                             oncommand="
+                                                      var sURL = typeof(gContextMenu.linkURL) == 'function'  ? gContextMenu.linkURL() : gContextMenu.linkURL;
+                                                      OpenSecureNewTab(sURL);     " 
+                   />
+         </popup>
+
+
+    <statusbar id="status-bar">
+
+        <popupset >        
+
+            <popup id="backpopup" position="after_start"   >
+                <menuitem 
+                    label="&InBasic.Ph.Main.status1;" 
+                    accesskey="T"
+                    onclick="fndPhProxy();"
+                    tooltip="Ph.Status.Tip1"
+                />
+        
+                <menuitem 
+                    label="&InBasic.Ph.Main.status2;" 
+                    accesskey="P"
+                    onclick="
+						var paste = readFromClipboard();
+                            if(paste!='')
+							{
+                                var answer = confirm ('Open ' + paste +' ?');
+								if (answer)
+									OpenSecure(paste);
+							}
+                            else
+                                 alert('Empty ClipBoard !');
+						"
+                    tooltip="Ph.Status.Tip2"
+                />
+                <menuitem 
+                    label="&InBasic.Ph.Main.status3;" 
+                    accesskey="T"
+                    onclick="
+						var paste = readFromClipboard();
+                        if(paste!='')
+						{
+                            var answer = confirm ('Open  ' + paste +' in New Tab?');
+							if (answer)
+								OpenSecureNewTab(paste);
+						}
+                        else
+                            alert('Empty ClipBoard !');
+                    "
+                    tooltip="Ph.Status.Tip2"
+                />
+
+                <menuseparator/>                      
+
+				<menuitem 
+                    label="&InBasic.Ph.Main.status4;" 
+                    accesskey="O"
+                    onclick="window.openDialog('chrome://inbasicph/content/XULOption.xul','ExtensionListOptions','centerscreen, chrome, resizable').focus();"
+                    tooltip="Ph.Status.Tip3"
+                />
+
+                <menuseparator/>
+
+                <menuitem 
+                    label="&InBasic.Ph.Main.status6;" 
+                    accesskey="A"
+                    onclick="window.openDialog('chrome://inbasicph/content/XULAbout.xul' ,'ExtensionListOptions','centerscreen, chrome, resizable').focus();"
+                />
+
+                </popup>
+
+			</popupset>
+
+
+       
+        <statusbarpanel 
+            id="Ph.Status.Icon" 
+            tooltip="Ph.Status.Tip4"
+            class="statusbarpanel-iconic"
+            src="chrome://inbasicph/skin/mainNoMouse.ico"   
+            context="backpopup"
+            onmouseover="  if(String(content.document.location.href).substr(0,String(ReadStr('def_URL_F')).length)!=ReadStr('def_URL_F') ) document.getElementById('Ph.Status.Icon').src=src='chrome://inbasicph/skin/mainMouse.ico' ;
+                           this.style.cursor='pointer'; "
+            onmouseout="   if(String(content.document.location.href).substr(0,String(ReadStr('def_URL_F')).length)!=ReadStr('def_URL_F') ) document.getElementById('Ph.Status.Icon').src=src='chrome://inbasicph/skin/mainNoMouse.ico' ;   
+                           this.style.cursor='arrow'; "
+			onclick="
+				if(event.button==0)
+				{
+					if(ReadStr('LeftClick')=='0')
+					{
+						fndPhProxy();
+					}
+					else if(ReadStr('LeftClick')=='1')
+					{
+						var paste = readFromClipboard();
+	                    if(paste!='')
+							{
+	                            var answer = confirm ('Open ' + paste +' ?');
+								if (answer)
+									OpenSecure(paste);
+							}
+							else
+								 alert('Empty ClipBoard !');				
+					}
+					else
+					{
+						var paste = readFromClipboard();
+						if(paste!='')
+						{
+							var answer = confirm ('Open  ' + paste +' in New Tab?');
+							if (answer)
+								OpenSecureNewTab(paste);
+						}
+						else
+							alert('Empty ClipBoard !');					
+					}
+				}
+			"
+        /> 
+    </statusbar>
+
+</overlay>

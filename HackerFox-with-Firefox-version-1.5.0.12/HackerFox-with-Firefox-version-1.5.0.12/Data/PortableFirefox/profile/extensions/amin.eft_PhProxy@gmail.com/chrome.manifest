@@ -1,0 +1,14 @@
+locale		inbasicph	en-US  chrome/locale/en-US/
+locale		inbasicph	zh-CN  chrome/locale/zh-CN/
+locale		inbasicph	fr-FR  chrome/locale/fr-FR/
+
+content		inbasicph	chrome/content/
+
+skin	inbasicph    inb.png			chrome/skin/
+skin	inbasicph    mainMouse.png		chrome/skin/
+skin	inbasicph    mainNoMouse.png	chrome/skin/
+skin	inbasicph    main.png			chrome/skin/
+
+overlay chrome://browser/content/browser.xul chrome://inbasicph/content/xulStatusOverlay.xul
+
+

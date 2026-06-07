@@ -1,0 +1,577 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:NS1="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Seq RDF:about="urn:mozilla:item:root">
+    <RDF:li RDF:resource="urn:mozilla:item:inspector@mozilla.org"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{972ce4c6-7e08-4474-a285-3208198ce6fd}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:firebug@software.joehewitt.com"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{F5DDF39C-9293-4d5e-9AA8-E04E6DD5E9B4}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{f13b157f-b174-47e7-a34d-4815ddfdfeb8}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{DCDAC04C-A5C3-4f07-BA81-7C83B29D76AC}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{8f8fe09b-0bd3-4470-bc1b-8cad42b8203a}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:ServerSpy@jacquet.eu.org"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{a6fd85ed-e919-4a43-a5af-8da18bda539f}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:amin.eft_PhProxy@gmail.com"/>
+    <RDF:li RDF:resource="urn:mozilla:item:fireencrypter@jungsonn.com"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{5546F97E-11A5-46b0-9082-32AD74AAA920}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{74FD056A-18A2-41d8-B9A8-2025C3FFBA94}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{27A2FD41-CB23-4518-AB5C-C25BAFFDE531}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{9c51bd27-6ed8-4000-a2bf-36cb95c0c947}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{c45c406e-ab73-11d8-be73-000a95be3b12}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{7b8beb93-00ec-4db3-8f95-5e8ca0a2f171}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{68836a21-fc7d-4ea1-a065-7efabd99d414}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{e968fc70-8f95-4ab9-9e79-304de2a71ee1}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{3e9bb2a7-62ca-4efa-a4e6-f6f6168a652d}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{e4a8a97b-f2ed-450b-b12d-ee082ba24781}"/>
+    <RDF:li RDF:resource="urn:mozilla:item:{91B561C3-B49E-481c-A2D4-ABFA9759E5DD}"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf:#$br01f2"
+                   NS1:id="{86c18b42-e466-45a9-ae7a-9b95ba6f5640}"
+                   NS1:minVersion="1.6"
+                   NS1:maxVersion="1.8" />
+  <RDF:Description RDF:about="rdf:#$Rt01f2"
+                   NS1:id="{86c18b42-e466-45a9-ae7a-9b95ba6f5640}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="1.8" />
+  <RDF:Description RDF:about="rdf:#$Jr01f2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="3.0b4pre" />
+  <RDF:Description RDF:about="rdf:#$vu01f2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="3.6.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:{3e9bb2a7-62ca-4efa-a4e6-f6f6168a652d}"
+                   NS1:installLocation="app-profile"
+                   NS1:userDisabled="true"
+                   NS1:version="0.8.05"
+                   NS1:name="ShowIP"
+                   NS1:description="Show the IP address of the current page in the status bar. It also allows querying custom services by IP (right mouse button) and Hostname (left mouse button), like whois, netcraft. Additionally you can copy the IP address to the clipboard. This extension was formerly known as ipv6ident."
+                   NS1:creator="Jan Dittmer"
+                   NS1:homepageURL="http://l4x.org/showip"
+                   NS1:optionsURL="chrome://ipv6ident/content/ipv6ident-pref.xul">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$Qt01f2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$Rt01f2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$Qp01f2"
+                   NS1:id="{a463f10c-3994-11da-9945-000d60ca027b}"
+                   NS1:minVersion="0.5.9"
+                   NS1:maxVersion="0.7.*" />
+  <RDF:Description RDF:about="rdf:#$Fn01f2"
+                   NS1:id="{3550f703-e582-4d05-9a08-453d09bdfdc6}"
+                   NS1:minVersion="0.9"
+                   NS1:maxVersion="3.0a2pre" />
+  <RDF:Description RDF:about="rdf:#$6s01f2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:inspector@mozilla.org"
+                   NS1:installLocation="app-global"
+                   NS1:userDisabled="true"
+                   NS1:version="1.8.0.12"
+                   NS1:name="DOM Inspector"
+                   NS1:description="Inspect the DOM of HTML, XUL, and XML pages, including the browser chrome."
+                   NS1:creator="mozilla.org"
+                   NS1:homepageURL="http://www.mozilla.org/projects/inspector/"
+                   NS1:appManaged="true">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$9m01f2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$am01f2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$pm01f2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.5.0.12"
+                   NS1:maxVersion="1.5.0.12" />
+  <RDF:Description RDF:about="rdf:#$Jm01f2"
+                   NS1:id="{a463f10c-3994-11da-9945-000d60ca027b}"
+                   NS1:minVersion="0.5"
+                   NS1:maxVersion="1.0.*" />
+  <RDF:Description RDF:about="rdf:#$cq01f2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="1.5.0.*" />
+  <RDF:Description RDF:about="rdf:#$Vs01f2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="5.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:{DCDAC04C-A5C3-4f07-BA81-7C83B29D76AC}"
+                   NS1:installLocation="app-profile"
+                   NS1:userDisabled="true"
+                   NS1:version="0.1.3"
+                   NS1:name="NF-Tools"
+                   NS1:description="Convert text to i.e. different encodings."
+                   NS1:creator="Marijn"
+                   NS1:homepageURL="http://www.net-force.nl"
+                   NS1:aboutURL="chrome://nftools/content/about.xul"
+                   NS1:iconURL="chrome://nftools/skin/nftoolslogo.png">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$+n01f2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$Ju01f2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="3.0.*" />
+  <RDF:Description RDF:about="rdf:#$bq01f2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="3.0b4" />
+  <RDF:Description RDF:about="rdf:#$Ku01f2"
+                   NS1:id="{3550f703-e582-4d05-9a08-453d09bdfdc6}"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$am01f2"
+                   NS1:id="{3550f703-e582-4d05-9a08-453d09bdfdc6}"
+                   NS1:minVersion="1.5.0.12"
+                   NS1:maxVersion="1.5.0.12" />
+  <RDF:Description RDF:about="rdf:#$9m01f2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.5.0.12"
+                   NS1:maxVersion="1.5.0.12" />
+  <RDF:Description RDF:about="urn:mozilla:item:ServerSpy@jacquet.eu.org"
+                   NS1:installLocation="app-profile"
+                   NS1:userDisabled="true"
+                   NS1:version="0.1.4"
+                   NS1:name="Server Spy"
+                   NS1:description="Indicates what brand of HTTP server runs on the visited site."
+                   NS1:creator="Christophe Jacquet"
+                   NS1:homepageURL="http://jacquetc.free.fr/mozilla/exts/ServerSpy/"
+                   NS1:iconURL="chrome://serverspy/content/serverspy-32.png">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$bq01f2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:{9c51bd27-6ed8-4000-a2bf-36cb95c0c947}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="10.0.3"
+                   NS1:name="Tamper Data"
+                   NS1:description="View and modify HTTP/HTTPS headers etc."
+                   NS1:creator="Adam Judson"
+                   NS1:homepageURL="http://tamperdata.mozdev.org"
+                   NS1:optionsURL="chrome://tamperdata/content/tamperOptions.xul">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:contributor>Claude Villermain - Graphs and French Translation</NS1:contributor>
+    <NS1:contributor>Alex - Ukrainian Translation</NS1:contributor>
+    <NS1:contributor>MatrixIsAllOver - Italian Translation</NS1:contributor>
+    <NS1:contributor>Kacper 'KKKas' Kwapisz. - Polish Translation</NS1:contributor>
+    <NS1:contributor>overPlumbum - Russian Translation</NS1:contributor>
+    <NS1:contributor>Thomas Landauer - German Translation</NS1:contributor>
+    <NS1:contributor>Proyecto Nave - Spanish Translation</NS1:contributor>
+    <NS1:contributor>pedsann, Rodrigo Bergmann Laurindo - Portuguese Translation</NS1:contributor>
+    <NS1:contributor>Many many others</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$Jr01f2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$2r01f2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="3.0a1" />
+  <RDF:Description RDF:about="urn:mozilla:item:{27A2FD41-CB23-4518-AB5C-C25BAFFDE531}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="1.4.1"
+                   NS1:name="SwitchProxy Tool"
+                   NS1:description="A tool that allows you to manage and switch between multiple proxy configurations quickly and easily."
+                   NS1:creator="Jeremy Gillick"
+                   NS1:homepageURL="http://mozmonkey.com/"
+                   NS1:optionsURL="chrome://switchproxy/content/options/options.xul">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$9r01f2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$ar01f2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$br01f2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:amin.eft_PhProxy@gmail.com"
+                   NS1:installLocation="app-profile"
+                   NS1:userDisabled="true"
+                   NS1:version="3.0.1G"
+                   NS1:name="PhProxy - InBasic"
+                   NS1:description="Open Block Pages using web base Proxy (PhProxy) by click on &quot;P Icon&quot; in statusbar"
+                   NS1:creator="Amin E"
+                   NS1:homepageURL="https://addons.mozilla.org/en-US/firefox/addon/3239/"
+                   NS1:optionsURL="chrome://inbasicph/content/XULOption.xul"
+                   NS1:aboutURL="chrome://inbasicph/content/XULAbout.xul"
+                   NS1:iconURL="chrome://inbasicph/skin/Main.png">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$dq01f2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:{972ce4c6-7e08-4474-a285-3208198ce6fd}"
+                   NS1:installLocation="app-global"
+                   NS1:version="2.0"
+                   NS1:name="Firefox (default)"
+                   NS1:description="The default theme"
+                   NS1:creator="Gerich and Horlander"
+                   NS1:internalName="classic/1.0"
+                   NS1:locked="true"
+                   NS1:appManaged="true"
+                   NS1:contributor="Mozilla Contributors">
+    <NS1:type NC:parseType="Integer">4</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$pm01f2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:firebug@software.joehewitt.com"
+                   NS1:installLocation="app-profile"
+                   NS1:version="1.04"
+                   NS1:name="Firebug"
+                   NS1:description="Web Development Evolved"
+                   NS1:creator="Joe Hewitt"
+                   NS1:homepageURL="http://www.getfirebug.com/"
+                   NS1:iconURL="chrome://firebug/content/firebug.png">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$Im01f2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$Jm01f2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:{F5DDF39C-9293-4d5e-9AA8-E04E6DD5E9B4}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="1.6.2"
+                   NS1:name="HackBar"
+                   NS1:description="A toolbar that helps pentesters to perform manual web security testing inside their browser."
+                   NS1:creator="Johan Adriaans"
+                   NS1:homepageURL="https://code.google.com/p/hackbar/"
+                   NS1:iconURL="chrome://hackbar/skin/icon.png"
+                   NS1:contributor="Pedro Laguna">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$Ym01f2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:{74FD056A-18A2-41d8-B9A8-2025C3FFBA94}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="0.2.6"
+                   NS1:name="Super DragAndGo"
+                   NS1:description="Drag a link or anything like a uri (e.g. &quot;abc.com&quot; ), and throw it to anywhere blank on the webpage to open the it in a new tab."
+                   NS1:creator="morphis"
+                   NS1:homepageURL="http://morphis.eu.org/"
+                   NS1:optionsURL="chrome://superdrag/content/superdragSettings.xul"
+                   NS1:contributor="asqueella MonkeeSage NetOne">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$2r01f2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:fireencrypter@jungsonn.com"
+                   NS1:installLocation="app-profile"
+                   NS1:userDisabled="true"
+                   NS1:version="3.0"
+                   NS1:name="Fire Encrypter"
+                   NS1:description="Encryption, Decryption, and Hashing program."
+                   NS1:creator="Ronald van den heetkamp"
+                   NS1:homepageURL="http://www.jungsonnstudios.com/Mozilla/"
+                   NS1:iconURL="chrome://fireencrypter/skin/icon_list.png">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$eq01f2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$tSafy3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="0.8"
+                   NS1:maxVersion="100.0+" />
+  <RDF:Description RDF:about="rdf:#$Pp01f2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="0.8"
+                   NS1:maxVersion="4.0.*" />
+  <RDF:Description RDF:about="rdf:#$ic1eK2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:{8f8fe09b-0bd3-4470-bc1b-8cad42b8203a}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="0.17"
+                   NS1:name="Live HTTP Headers"
+                   NS1:description="View HTTP headers of a page and while browsing."
+                   NS1:creator="Daniel Savard"
+                   NS1:homepageURL="http://livehttpheaders.mozdev.org/"
+                   NS1:optionsURL="chrome://livehttpheaders/content/LiveHTTPHeaders.xul"
+                   NS1:iconURL="chrome://livehttpheaders/skin/img/Logo_32.png">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:contributor>Alex Pleiner</NS1:contributor>
+    <NS1:contributor>Balogh Tibor</NS1:contributor>
+    <NS1:contributor>Bernardo A. de la Ossa Pérez</NS1:contributor>
+    <NS1:contributor>Boris Zbarsky</NS1:contributor>
+    <NS1:contributor>Christopher Cook</NS1:contributor>
+    <NS1:contributor>Daniel Brooks</NS1:contributor>
+    <NS1:contributor>David Boswell</NS1:contributor>
+    <NS1:contributor>Ere Maijala</NS1:contributor>
+    <NS1:contributor>FenyX at ShareStation.com</NS1:contributor>
+    <NS1:contributor>François Constantineau</NS1:contributor>
+    <NS1:contributor>Grégoire Lejeune</NS1:contributor>
+    <NS1:contributor>Henrik Gemal</NS1:contributor>
+    <NS1:contributor>Joshua Hewitt</NS1:contributor>
+    <NS1:contributor>Lionello Lunesu</NS1:contributor>
+    <NS1:contributor>Lolilolicon</NS1:contributor>
+    <NS1:contributor>Macarie Neculai</NS1:contributor>
+    <NS1:contributor>Mandeep Singh</NS1:contributor>
+    <NS1:contributor>Manuel Garcia</NS1:contributor>
+    <NS1:contributor>Mathieu Hautot</NS1:contributor>
+    <NS1:contributor>Michal Kec</NS1:contributor>
+    <NS1:contributor>Mook</NS1:contributor>
+    <NS1:contributor>Nathan Fain</NS1:contributor>
+    <NS1:contributor>Nikolas Coukouma</NS1:contributor>
+    <NS1:contributor>Nils Maier</NS1:contributor>
+    <NS1:contributor>Paul Lacourse</NS1:contributor>
+    <NS1:contributor>Pavel Franc</NS1:contributor>
+    <NS1:contributor>Philip Chee</NS1:contributor>
+    <NS1:contributor>Richard Marti</NS1:contributor>
+    <NS1:contributor>Richard Mlynarik</NS1:contributor>
+    <NS1:contributor>Stanimir Stamenkov</NS1:contributor>
+    <NS1:contributor>Stefan Trcek</NS1:contributor>
+    <NS1:contributor>Sven Anders</NS1:contributor>
+    <NS1:contributor>Takanori Matsuura</NS1:contributor>
+    <NS1:contributor>Todd Knarr</NS1:contributor>
+    <NS1:contributor>Wladimir Palant</NS1:contributor>
+    <NS1:contributor>Wojtek Meler</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$Pp01f2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$Qp01f2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$Rp01f2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$9r01f2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="3.6.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:{c45c406e-ab73-11d8-be73-000a95be3b12}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="1.1.3"
+                   NS1:name="Web Developer"
+                   NS1:description="Adds a menu and a toolbar with various web developer tools."
+                   NS1:creator="Chris Pederick"
+                   NS1:homepageURL="http://chrispederick.com/work/webdeveloper/"
+                   NS1:updateURL="http://chrispederick.com/work/webdeveloper/update.rdf"
+                   NS1:optionsURL="chrome://webdeveloper/content/options/options.xul"
+                   NS1:aboutURL="chrome://webdeveloper/content/about/about.xul"
+                   NS1:iconURL="chrome://webdeveloper/content/images/logo/large.png">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$6s01f2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$7s01f2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$vt01f2"
+                   NS1:id="songbird@songbirdnest.com"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="1.8.*" />
+  <RDF:Description RDF:about="rdf:#$eq01f2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$7s01f2"
+                   NS1:id="{a463f10c-3994-11da-9945-000d60ca027b}"
+                   NS1:minVersion="0.4"
+                   NS1:maxVersion="1.0.*" />
+  <RDF:Description RDF:about="rdf:#$In01f2"
+                   NS1:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   NS1:minVersion="2.0a"
+                   NS1:maxVersion="2.0a1" />
+  <RDF:Description RDF:about="rdf:#$Nq01f2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="8.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:{e4a8a97b-f2ed-450b-b12d-ee082ba24781}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="0.8.20100408.6"
+                   NS1:name="Greasemonkey"
+                   NS1:description="A User Script Manager for Firefox"
+                   NS1:creator="Aaron Boodman; http://youngpup.net/"
+                   NS1:homepageURL="http://www.greasespot.net/"
+                   NS1:optionsURL="chrome://greasemonkey/content/manage.xul"
+                   NS1:iconURL="chrome://greasemonkey/content/icon_medium.png">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:contributor>Anthony Lieuallen; http://arantius.com</NS1:contributor>
+    <NS1:contributor>Chris Feldmann; http://axlotl.net</NS1:contributor>
+    <NS1:contributor>David Schontzler; http://stilleye.com/</NS1:contributor>
+    <NS1:contributor>Erik Vold; http://erikvold.com/</NS1:contributor>
+    <NS1:contributor>Gareth Andrew; http://freegarethandrew.org</NS1:contributor>
+    <NS1:contributor>Hisateru Tanaka</NS1:contributor>
+    <NS1:contributor>Jeremy Dunck; http://dunck.us/anabasis/</NS1:contributor>
+    <NS1:contributor>Jesper Kristensen &lt;mail@jesperkristensen.dk&gt;</NS1:contributor>
+    <NS1:contributor>Johan Sundström; http://ecmanaut.blogspot.com/</NS1:contributor>
+    <NS1:contributor>JP Sugarbroad</NS1:contributor>
+    <NS1:contributor>Juan Pablo Guereca Alonso</NS1:contributor>
+    <NS1:contributor>Manpreet Singh</NS1:contributor>
+    <NS1:contributor>Mark Pilgrim; http://diveintomark.org</NS1:contributor>
+    <NS1:contributor>Marti Martz</NS1:contributor>
+    <NS1:contributor>Matthias Bauer; http://moeffju.net/</NS1:contributor>
+    <NS1:contributor>Matthew Gray; http://mkgray.com:8000/</NS1:contributor>
+    <NS1:contributor>Nikolas Coukouma; http://atrus.org/</NS1:contributor>
+    <NS1:contributor>Ori Avtallon</NS1:contributor>
+    <NS1:contributor>Pak Kei (logo); http://arkidect.com/</NS1:contributor>
+    <NS1:contributor>Sergio Abreu; http://sitedosergio.sitesbr.net</NS1:contributor>
+    <NS1:contributor>Tommi Rautava</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$vu01f2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$wu01f2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$Ym01f2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="4.0.*" />
+  <RDF:Description RDF:about="rdf:#$st01f2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="4.0.*" />
+  <RDF:Description RDF:about="rdf:#$Qt01f2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$ls01f2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:{a6fd85ed-e919-4a43-a5af-8da18bda539f}"
+                   NS1:installLocation="app-profile"
+                   NS1:userDisabled="true"
+                   NS1:version="0.8.0"
+                   NS1:name="Selenium IDE"
+                   NS1:description="Record, edit and play Selenium tests"
+                   NS1:creator="Shinya Kasatani"
+                   NS1:homepageURL="http://www.openqa.org/selenium-ide/"
+                   NS1:optionsURL="chrome://selenium-ide/content/optionsDialog.xul">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$cq01f2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$dq01f2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="3.0a8" />
+  <RDF:Description RDF:about="rdf:#$lc1eK2"
+                   NS1:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="1.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:{91B561C3-B49E-481c-A2D4-ABFA9759E5DD}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="0.23"
+                   NS1:name="Open As Webfolder"
+                   NS1:description="Open pages and links in WebFolder client"
+                   NS1:creator="Julian Reschke"
+                   NS1:homepageURL="http://openwebfolder.mozdev.org"
+                   NS1:iconURL="chrome://openwebfolder/content/openwebfolder.png">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$Ju01f2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$Ku01f2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$tt01f2"
+                   NS1:id="{a463f10c-3994-11da-9945-000d60ca027b}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="2.6.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:{7b8beb93-00ec-4db3-8f95-5e8ca0a2f171}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="1.1"
+                   NS1:name="Technika"
+                   NS1:description="Browser Automation Powertool"
+                   NS1:creator="GNUCITIZEN; http://www.gnucitizen.org"
+                   NS1:homepageURL="http://www.gnucitizen.org/projects/technika"
+                   NS1:updateURL="http://www.gnucitizen.org/projects/technika/update.rdf">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$ls01f2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$Jn01f2"
+                   NS1:id="toolkit@mozilla.org"
+                   NS1:minVersion="1.9a7"
+                   NS1:maxVersion="1.9.*" />
+  <RDF:Description RDF:about="rdf:#$ar01f2"
+                   NS1:id="{3550f703-e582-4d05-9a08-453d09bdfdc6}"
+                   NS1:minVersion="0.5"
+                   NS1:maxVersion="1.5" />
+  <RDF:Description RDF:about="rdf:#$+n01f2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="1.5+" />
+  <RDF:Description RDF:about="rdf:#$kc1eK2"
+                   NS1:id="{86c18b42-e466-45a9-ae7a-9b95ba6f5640}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="1.7.*" />
+  <RDF:Description RDF:about="rdf:#$En01f2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="0.9"
+                   NS1:maxVersion="3.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:{68836a21-fc7d-4ea1-a065-7efabd99d414}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="3.05"
+                   NS1:name="View Source Chart"
+                   NS1:description="Source Chart DOM Inspector"
+                   NS1:creator="Jennifer Madden"
+                   NS1:homepageURL="http://zigrat.com"
+                   NS1:optionsURL="chrome://vrs/content/options.xul"
+                   NS1:aboutURL="chrome://vrs/content/about.xul"
+                   NS1:iconURL="chrome://vrs/skin/vrssmall.png">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$Vs01f2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$Im01f2"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="2.0.0.*" />
+  <RDF:Description RDF:about="rdf:#$wu01f2"
+                   NS1:id="songbird@songbirdnest.com"
+                   NS1:minVersion="0.3pre"
+                   NS1:maxVersion="1.0.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:{5546F97E-11A5-46b0-9082-32AD74AAA920}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="0.6.3"
+                   NS1:name="InFormEnter"
+                   NS1:description="Helper for form filling in semi-automatic mode."
+                   NS1:creator="Mykola Onyschuk"
+                   NS1:homepageURL="http://informenter.mozdev.org/"
+                   NS1:optionsURL="chrome://informenter/content/ife_options.xul"
+                   NS1:iconURL="chrome://informenter/skin/about.png">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:contributor>Armin C. Schneider (DE locale)</NS1:contributor>
+    <NS1:contributor>Luana Di Muzio (IT locale)</NS1:contributor>
+    <NS1:contributor>SlovakSoft (SK locale)</NS1:contributor>
+    <NS1:contributor>Zaffo (NL locale)</NS1:contributor>
+    <NS1:contributor>Leszek(teo)Życzkowski  (PL locale)</NS1:contributor>
+    <NS1:contributor>mslagmu, Goofy, Monique (FR locale)</NS1:contributor>
+    <NS1:contributor>Urko (ES locale)</NS1:contributor>
+    <NS1:contributor>Norah (JP locale)</NS1:contributor>
+    <NS1:contributor>ooooo (TH locale)</NS1:contributor>
+    <NS1:contributor>Chang-Ning Zhu ( locale)</NS1:contributor>
+    <NS1:contributor>Alberto E. Kuniyoshi (pt-BR locale)</NS1:contributor>
+    <NS1:contributor>Toni Almeida (pt-PT locale)</NS1:contributor>
+    <NS1:contributor>Celikbas (TR locale)</NS1:contributor>
+    <NS1:contributor>Marcus Hsu (zh-TW locale)</NS1:contributor>
+    <NS1:contributor>Jakub Tománek (CZ locale)</NS1:contributor>
+    <NS1:contributor>lord1980 (AR locale)</NS1:contributor>
+    <NS1:contributor>DELer (icon design)</NS1:contributor>
+    <NS1:contributor>Sergey Skobyakov (programming tips)</NS1:contributor>
+    <NS1:contributor>SiiiE (HE locale)</NS1:contributor>
+    <NS1:contributor>fenya25 (HU locale)</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$Nq01f2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$Gn01f2"
+                   NS1:id="{a463f10c-3994-11da-9945-000d60ca027b}"
+                   NS1:minVersion="0.4"
+                   NS1:maxVersion="1.3.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:{f13b157f-b174-47e7-a34d-4815ddfdfeb8}"
+                   NS1:installLocation="app-profile"
+                   NS1:userDisabled="true"
+                   NS1:version="0.9.87.4"
+                   NS1:name="JavaScript Debugger"
+                   NS1:description="JavaScript debugger and profiler"
+                   NS1:creator="Robert Ginda"
+                   NS1:homepageURL="http://www.hacksrus.com/~ginda/venkman/">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:contributor>Christopher Aillon</NS1:contributor>
+    <NS1:contributor>James Ross</NS1:contributor>
+    <NS1:targetApplication RDF:resource="rdf:#$En01f2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$Fn01f2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$Gn01f2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$Hn01f2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$In01f2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$Jn01f2"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$Rp01f2"
+                   NS1:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="2.1.*" />
+  <RDF:Description RDF:about="rdf:#$ut01f2"
+                   NS1:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   NS1:minVersion="1.0"
+                   NS1:maxVersion="2.0.*" />
+  <RDF:Description RDF:about="rdf:#$Hn01f2"
+                   NS1:id="{718e30fb-e89b-41dd-9da7-e25a45638b28}"
+                   NS1:minVersion="0.3a1"
+                   NS1:maxVersion="0.8pre" />
+  <RDF:Description RDF:about="urn:mozilla:item:{e968fc70-8f95-4ab9-9e79-304de2a71ee1}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="0.7.3"
+                   NS1:name="User Agent Switcher"
+                   NS1:description="Adds a menu and a toolbar button to switch the user agent of a browser."
+                   NS1:creator="Chris Pederick"
+                   NS1:homepageURL="http://chrispederick.com/work/user-agent-switcher/"
+                   NS1:optionsURL="chrome://useragentswitcher/content/options/options.xul"
+                   NS1:aboutURL="chrome://useragentswitcher/content/about/about.xul"
+                   NS1:iconURL="chrome://useragentswitcher/content/logo.png">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$st01f2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$tt01f2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$ut01f2"/>
+    <NS1:targetApplication RDF:resource="rdf:#$vt01f2"/>
+  </RDF:Description>
+</RDF:RDF>

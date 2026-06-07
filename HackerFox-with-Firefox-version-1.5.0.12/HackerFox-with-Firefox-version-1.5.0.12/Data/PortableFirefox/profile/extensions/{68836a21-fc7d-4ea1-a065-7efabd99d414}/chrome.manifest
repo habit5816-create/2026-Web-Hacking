@@ -1,0 +1,22 @@
+overlay	chrome://browser/content/browser.xul chrome://vrs/content/vrsOverlay.xul
+overlay	chrome://navigator/content/navigator.xul chrome://vrs/content/vrsOverlay.xul
+content	vrs	jar:chrome/vrs.jar!/content/vrs/
+skin vrs classic/1.0 jar:chrome/vrs.jar!/skin/classic/vrs/
+locale vrs af-ZA jar:chrome/vrs.jar!/locale/vrs/af-ZA/
+locale vrs en-US jar:chrome/vrs.jar!/locale/vrs/cs-CZ/
+locale vrs da-DK jar:chrome/vrs.jar!/locale/vrs/da-DK/
+locale vrs de-DE jar:chrome/vrs.jar!/locale/vrs/de-DE/
+locale vrs en-US jar:chrome/vrs.jar!/locale/vrs/en-US/
+locale vrs es-ES jar:chrome/vrs.jar!/locale/vrs/es-ES/
+locale vrs fa-IR jar:chrome/vrs.jar!/locale/vrs/fa-IR/
+locale vrs fi-FI jar:chrome/vrs.jar!/locale/vrs/fi-FI/
+locale vrs fr-FR jar:chrome/vrs.jar!/locale/vrs/fr-FR/
+locale vrs hr-HR jar:chrome/vrs.jar!/locale/vrs/hr-HR/
+locale vrs it-IT jar:chrome/vrs.jar!/locale/vrs/it-IT/
+locale vrs ko-KR jar:chrome/vrs.jar!/locale/vrs/ko-KR/
+locale vrs nl-NL jar:chrome/vrs.jar!/locale/vrs/nl-NL/
+locale vrs pt-BR jar:chrome/vrs.jar!/locale/vrs/pt-BR/
+locale vrs pt-PT jar:chrome/vrs.jar!/locale/vrs/pt-PT/
+locale vrs ru-RU jar:chrome/vrs.jar!/locale/vrs/ru-RU/
+locale vrs sl-SI jar:chrome/vrs.jar!/locale/vrs/sl-SI/
+locale vrs th-TH jar:chrome/vrs.jar!/locale/vrs/th-TH/

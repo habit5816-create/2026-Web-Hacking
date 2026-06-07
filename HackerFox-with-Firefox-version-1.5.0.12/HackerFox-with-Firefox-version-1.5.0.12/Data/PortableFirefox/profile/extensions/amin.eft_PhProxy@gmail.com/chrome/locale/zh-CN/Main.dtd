@@ -1,0 +1,17 @@
+<!ENTITY InBasic.Ph.ExtensionName "PhProxy-InBasic">
+<!ENTITY InBasic.Ph.Description "通过 PhProxy 代理服务器打开被封锁的网页。">
+<!ENTITY InBasic.Ph.Main.inf1 "PhProxy-InBasic">
+<!ENTITY InBasic.Ph.Main.inf2 "左键单击：设定的动作">
+<!ENTITY InBasic.Ph.Main.inf3 "右键单击：显示菜单">
+<!ENTITY InBasic.Ph.Main.inf4 "点击通过默认代理打开地址栏的链接">
+<!ENTITY InBasic.Ph.Main.inf5 "点击通过默认代理打开粘贴板的链接">
+<!ENTITY InBasic.Ph.Main.inf6 "点击显示 设置/查看模式 对话框">
+<!ENTITY InBasic.Ph.Main.status1 "通过代理打开当前页面">
+<!ENTITY InBasic.Ph.Main.status2 "安全的粘贴并转到">
+<!ENTITY InBasic.Ph.Main.status3 "在新标签安全的粘贴并转到">
+<!ENTITY InBasic.Ph.Main.status4 "选项">
+<!ENTITY InBasic.Ph.Main.status5 "帮助">
+<!ENTITY InBasic.Ph.Main.status6 "关于">
+<!ENTITY InBasic.Ph.Main.Context.lbl1 "通过 PhProxy 打开">
+<!ENTITY InBasic.Ph.Main.Context.lbl2 "在新标签通过 PhProxy 打开">
+<!ENTITY InBasic.Ph.Main.Alert1 "清空粘贴板！">

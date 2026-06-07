@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{9c51bd27-6ed8-4000-a2bf-36cb95c0c947}</em:id>
+    <em:version>10.0.3</em:version>
+    
+    <!-- Target Application this extension can install into, 
+         with minimum and maximum supported versions. --> 
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>1.0</em:minVersion>
+        <em:maxVersion>3.0b4pre</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    
+    <!-- Front End MetaData -->
+    <em:name>Tamper Data</em:name>
+    <em:description>View and modify HTTP/HTTPS headers etc.</em:description>
+    <em:creator>Adam Judson</em:creator>
+    <em:homepageURL>http://tamperdata.mozdev.org</em:homepageURL>
+      <!-- comment this out for UMO drops, as they no longer approve 
+           extensions with external update URLs 
+         <em:updateURL>http://tamperdata.mozdev.org/update.rdf</em:updateURL>
+         <em:updateKey>MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQPbFfGHKt/CPRCtp8o4A3I2c+Et0xwVn+TBZGSLGRocdmbREnhxZhNXza9LWXyfGfOPwuvB00lYqhTcZRPRI2/MvCEQiBmlA1Jf7K33JRDuyru5mN7sFuKyERB71ZuokiU5lf24xZc16kWDVwNCOFdfWKbfs1Xsxi+XJkgqfxUwIDAQAB</em:updateKey>
+      -->
+      <!-- 
+           this value may cause some problems, as the mirrors update later
+           than the site, but if we put it in downloads, it gets served as
+           the wrong file type
+      -->
+
+    <!-- Front End Integration Hooks (used by Extension Manager)-->
+    <!--
+       <em:iconURL>chrome://tamperdata/skin/TamperData.jpg</em:iconURL>
+    -->
+   <em:optionsURL>chrome://tamperdata/content/tamperOptions.xul</em:optionsURL>
+
+   <em:contributor>Claude Villermain - Graphs and French Translation</em:contributor>
+   <em:contributor>Alex - Ukrainian Translation</em:contributor>
+   <em:contributor>MatrixIsAllOver - Italian Translation</em:contributor>
+   <em:contributor>Kacper 'KKKas' Kwapisz. - Polish Translation</em:contributor>
+   <em:contributor>overPlumbum - Russian Translation</em:contributor>
+   <em:contributor>Thomas Landauer - German Translation</em:contributor>
+   <em:contributor>Proyecto Nave - Spanish Translation</em:contributor>
+   <em:contributor>pedsann, Rodrigo Bergmann Laurindo - Portuguese Translation</em:contributor>
+ 	<em:contributor>Many many others</em:contributor>
+
+   <!-- the default seems fine
+      <em:aboutURL></em:aboutURL>
+   -->
+
+    <!-- Packages, Skins and Locales that this extension registers -->
+    <em:file>
+      <Description about="urn:mozilla:extension:file:tamperdata.jar">
+        <em:package>content/</em:package>
+        <em:locale>locale/en/</em:locale>
+        <em:locale>locale/en-US/</em:locale>
+        <em:locale>locale/it-IT/</em:locale>
+        <em:locale>locale/fr-FR/</em:locale>
+        <em:locale>locale/es-ES/</em:locale>
+        <em:locale>locale/uk-UA/</em:locale>
+        <em:locale>locale/de-DE/</em:locale>
+        <em:locale>locale/ru-RU/</em:locale>
+        <em:locale>locale/pt-BR/</em:locale>
+        <em:locale>locale/pl-PL/</em:locale>
+<!--
+        <em:skin>skin/</em:skin>
+-->
+      </Description>
+    </em:file>
+  </Description>
+
+</RDF>

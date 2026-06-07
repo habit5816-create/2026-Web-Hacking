@@ -1,0 +1,17 @@
+<!ENTITY InBasic.Ph.ExtensionName "PhProxy-InBasic">
+<!ENTITY InBasic.Ph.Description "PhProxy 서버를 통해 한번의 클릭으로 차단된 페이지를 엽니다.">
+<!ENTITY InBasic.Ph.Main.inf1 "PhProxy-InBasic">
+<!ENTITY InBasic.Ph.Main.inf2 "왼쪽 클릭:조정가능한 동작">
+<!ENTITY InBasic.Ph.Main.inf3 "오른쪽 클릭:팝업 메뉴 표시">
+<!ENTITY InBasic.Ph.Main.inf4 "주소막대 내 URL 클릭시 기본 프록시 서버를 통해 엽니다">
+<!ENTITY InBasic.Ph.Main.inf5 "클립보드 URL 클릭시 기본 프록시 서버를 통해 엽니다">
+<!ENTITY InBasic.Ph.Main.inf6 "설정 클릭시\상자 표시 보기 모드">
+<!ENTITY InBasic.Ph.Main.status1 "프록시를 통해 현재 페이지 열기">
+<!ENTITY InBasic.Ph.Main.status2 "안전하게 붙여넣은 후 가기">
+<!ENTITY InBasic.Ph.Main.status3 "새 탭으로 안전하게 붙여넣은 후 가기">
+<!ENTITY InBasic.Ph.Main.status4 "선택사항">
+<!ENTITY InBasic.Ph.Main.status5 "도움말">
+<!ENTITY InBasic.Ph.Main.status6 "확장기능 정보">
+<!ENTITY InBasic.Ph.Main.Context.lbl1 "PhProxy를 통해 열기">
+<!ENTITY InBasic.Ph.Main.Context.lbl2 "PhProxy를 통해 새탭으로 열기">
+<!ENTITY InBasic.Ph.Main.Alert1 "클립보드가 비었습니다 !">

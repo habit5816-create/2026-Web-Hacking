@@ -1,0 +1,11 @@
+<!ENTITY technika.Technika "Technika">
+<!ENTITY technika.TechnikaTip "Technika">
+
+<!ENTITY technika.buildBookmarklet "Build Bookmarklet">
+<!ENTITY technika.buildBookmarkletTip "Build Bookmarklet">
+
+<!ENTITY technika.loadBookmarklet "Load Bookmarklet">
+<!ENTITY technika.loadBookmarkletTip "Load Bookmarklet">
+
+<!ENTITY technika.selectBookmarkletDialog.title "Select Bookmarklet">
+<!ENTITY technika.selectBookmarkletDialog.description "Choose a bookmarklet to be loaded in Technika.">

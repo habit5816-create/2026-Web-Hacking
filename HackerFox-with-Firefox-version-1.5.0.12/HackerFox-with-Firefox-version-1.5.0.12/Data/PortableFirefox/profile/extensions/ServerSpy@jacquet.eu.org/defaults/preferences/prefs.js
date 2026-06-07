@@ -1,0 +1,1 @@
+pref("extensions.ServerSpy@jacquet.eu.org.description", "chrome://serverspy/locale/ui.properties");

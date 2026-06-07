@@ -1,0 +1,24 @@
+
+overlay	chrome://browser/content/browser.xul	chrome://tamperdata/content/TasksOverlay.xul
+overlay	chrome://browser/content/browser.xul	chrome://tamperdata/content/SidebarOverlay.xul
+content	tamperdata	jar:chrome/tamperdata.jar!/content/
+
+locale	tamperdata	en	jar:chrome/tamperdata.jar!/locale/en/
+
+locale	tamperdata	en-US	jar:chrome/tamperdata.jar!/locale/en-US/
+
+locale	tamperdata	it-IT	jar:chrome/tamperdata.jar!/locale/it-IT/
+
+locale	tamperdata	fr-FR	jar:chrome/tamperdata.jar!/locale/fr-FR/
+
+locale	tamperdata	es-ES	jar:chrome/tamperdata.jar!/locale/es-ES/
+
+locale	tamperdata	uk-UA	jar:chrome/tamperdata.jar!/locale/uk-UA/
+
+locale	tamperdata	de-DE	jar:chrome/tamperdata.jar!/locale/de-DE/
+
+locale	tamperdata	ru-RU	jar:chrome/tamperdata.jar!/locale/ru-RU/
+
+locale	tamperdata	pt-BR	jar:chrome/tamperdata.jar!/locale/pt-BR/
+
+locale	tamperdata	pl-PL	jar:chrome/tamperdata.jar!/locale/pl-PL/

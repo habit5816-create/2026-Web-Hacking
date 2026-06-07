@@ -1,0 +1,8 @@
+1. Xampp를 실행하여 MySQL을 동작한다.
+2. cmd에서 backend까지 경로를 설정하여 
+ cd C:\Users\habit\Desktop\my_project\backend
+ node server.js -> 백엔드 서버 실행하는 명령어
+3. 백엔드가 DB에 연결 성공하면 프론트엔드 이동
+cd C:\Users\habit\Desktop\my_project\my-react-app
+ npm run dev -> 실행하여 뜨는 로컬 주소를 진입
+4. 성공적으로 웹사이트 접속 가능.

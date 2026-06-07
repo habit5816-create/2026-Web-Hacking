@@ -1,0 +1,1 @@
+Place your Firefox profile here or let Portable Firefox create one for you

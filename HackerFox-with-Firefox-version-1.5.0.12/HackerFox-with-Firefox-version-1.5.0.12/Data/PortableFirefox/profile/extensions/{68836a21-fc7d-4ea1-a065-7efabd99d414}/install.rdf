@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+	<Description about="urn:mozilla:install-manifest">
+
+		<em:id>{68836a21-fc7d-4ea1-a065-7efabd99d414}</em:id>
+		<em:name>View Source Chart</em:name>
+		<em:version>3.05</em:version>
+		<em:description>Source Chart DOM Inspector</em:description>
+                <!-->Organizes HTML of current webpage into a color-coded chart-->
+		<em:creator>Jennifer Madden</em:creator>
+		<em:homepageURL>http://zigrat.com</em:homepageURL>
+		<em:iconURL>chrome://vrs/skin/vrssmall.png</em:iconURL>
+		<em:aboutURL>chrome://vrs/content/about.xul</em:aboutURL>	
+		<em:optionsURL>chrome://vrs/content/options.xul</em:optionsURL>
+		<em:file>
+			<Description about="urn:mozilla:extension:file:vrs.jar">
+				<em:package>content/vrs/</em:package>
+				<em:locale>locale/vrs/af-ZA/</em:locale>
+				<em:locale>locale/vrs/cs-CZ/</em:locale>
+				<em:locale>locale/vrs/da-DK/</em:locale>
+				<em:locale>locale/vrs/de-DE/</em:locale>
+				<em:locale>locale/vrs/en-US/</em:locale>
+				<em:locale>locale/vrs/es-ES/</em:locale>
+				<em:locale>locale/vrs/fa-IR/</em:locale>
+				<em:locale>locale/vrs/fi-FI/</em:locale>
+				<em:locale>locale/vrs/fr-FR/</em:locale>
+				<em:locale>locale/vrs/hr-HR/</em:locale>
+				<em:locale>locale/vrs/it-IT/</em:locale>
+				<em:locale>locale/vrs/ko-KR/</em:locale>
+				<em:locale>locale/vrs/nl-NL/</em:locale>
+				<em:locale>locale/vrs/pt-BR/</em:locale>
+				<em:locale>locale/vrs/pt-PT/</em:locale>
+				<em:locale>locale/vrs/ru-RU/</em:locale>
+				<em:locale>locale/vrs/sl-SI/</em:locale>
+				<em:locale>locale/vrs/th-TH/</em:locale>
+				<!--><em:locale>locale/vrs/uk-UA/</em:locale>-->
+				<em:skin>skin/classic/vrs/</em:skin>
+			</Description>
+		</em:file>
+
+		<em:targetApplication>
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>1.0</em:minVersion>
+				<em:maxVersion>5.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+
+	</Description>
+
+</RDF>

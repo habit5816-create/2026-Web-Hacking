@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type"text/css"?>
+<?xml-stylesheet href="chrome://browser/skin/browser.css" type="text/css"?>
+<?xml-stylesheet href="chrome://technika/skin/technika.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://technika/locale/technika.dtd">
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	
+	<script type="application/x-javascript" src="chrome://technika/content/firebugOverlay.js"/>
+	
+	<commandset id="mainCommandSet">
+		<command id="cmd_buildBookmarklet" oncommand="Firebug.Console.buildBookmarklet(FirebugContext, document)"/>
+		<command id="cmd_loadBookmarklet" oncommand="Firebug.Console.loadBookmarklet(FirebugContext, document)"/>
+	</commandset>
+	
+	<box id="fbPanelBox">
+		<deck id="fbSidePanelDeck">
+			<vbox id="fbLargeCommandBox">
+				<hbox id="fbCommandToolbar">
+					<toolbarbutton label="&technika.Technika;" class="toolbar-text-button" tooltiptext="&technika.TechnikaTip;" position="4" type="menu">
+						<menupopup>
+							<menuitem label="&technika.buildBookmarklet;" class="toolbar-text-button" tooltiptext="&technika.buildBookmarkletTip;" command="cmd_buildBookmarklet"/>
+							<menuitem label="&technika.loadBookmarklet;" class="toolbar-text-button" tooltiptext="&technika.loadBookmarkletTip;" command="cmd_loadBookmarklet"/>
+						</menupopup>
+					</toolbarbutton>
+				</hbox>
+			</vbox>
+		</deck>
+	</box>
+	
+</overlay>

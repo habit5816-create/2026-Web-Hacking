@@ -1,0 +1,13 @@
+<!ENTITY InBasic.Ph.ExtensionName "PhProxy-InBasic">
+<!ENTITY InBasic.Ph.Description "通过 PhProxy 代理服务器打开被封锁的网页。">
+<!ENTITY InBasic.Ph.About.Title "关于 - InBasic">
+<!ENTITY InBasic.Ph.About.Tab1 "关于">
+<!ENTITY InBasic.Ph.About.Tab1.Title "关于此扩展">
+<!ENTITY InBasic.Ph.About.Tab1.CreatedBy "作者：">
+<!ENTITY InBasic.Ph.About.Tab1.HomePage "主页：">
+<!ENTITY InBasic.Ph.About.Tab2 "评价和讨论">
+<!ENTITY InBasic.Ph.About.Tab2.lbl "请等待网页完全载入。">
+<!ENTITY InBasic.Ph.About.Tab2.Tab1 "评论">
+<!ENTITY InBasic.Ph.About.Tab2.Tab2 "添加评论">
+<!ENTITY InBasic.Ph.About.Tab2.Tab3 "讨论">
+<!ENTITY InBasic.Ph.About.Tab2.Tab4 "添加讨论">

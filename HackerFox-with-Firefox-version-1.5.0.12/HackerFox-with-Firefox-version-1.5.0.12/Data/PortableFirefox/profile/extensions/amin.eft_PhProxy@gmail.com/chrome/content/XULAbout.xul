@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://inbasicph/skin/Style.css" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://inbasicph/locale/About.dtd">
+
+<window class="dialog"
+	title="&InBasic.Ph.About.Title;"
+	orient="vertical"
+	autostretch="always"
+	onload="sizeToContent()"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+>
+
+<tabbox flex="1" orient="horizontal" selectedIndex="0">
+	<tabs  class="PhTabs"  orient="vertical" style="width: 120px;">
+    		<tab class="PhTab" label="&InBasic.Ph.About.Tab1;" oncommand="getElementById('Ph.About.IMG').src='chrome://inbasicph/skin/About.png'"/>
+    		<tab class="PhTab" label="&InBasic.Ph.About.Tab2;"  oncommand="
+    			getElementById('Ph.About.IMG').src='chrome://inbasicph/skin/Review.gif'   ;
+    			getElementById('Ph.About.Tab2.Tab1.fram').contentDocument.location='https://addons.mozilla.org/en-US/firefox/reviews/display/3239' ; "/>
+    		<image src='chrome://inbasicph/skin/Border.png'  height='12' />
+    		<box  flex="1"  align="center" pack="center">
+    			<image id="Ph.About.IMG" src='chrome://inbasicph/skin/About.png'  />
+    		</box>
+  	</tabs>
+
+  	<tabpanels  class="PhTabpanels"  flex="1">
+    		<tabpanel orient="vertical"> 
+			<box>
+				<label class="PhHeaderFont" flex="1" value="&InBasic.Ph.About.Tab1.Title;"  />
+			</box>
+			<box flex="1" pack="center" orient="horizontal">
+				<columb orient="vertical" pack="center">
+					<text value="&InBasic.Ph.About.Tab1.CreatedBy;" style="font-weight: bold;"/> 
+					<text value="        Amin E"
+		      				class="url" 
+	              				style="color: navy;"
+	              				onclick="window.open('mailto:inb.cor@gmail.com');   window.close();"
+                      				onmouseover="this.style.cursor='pointer'; "   
+        				/>
+
+					<text value="Contributors:" style="font-weight: bold;"/> 
+					<text value="        	zh-CN        WangKing"
+		      				class="url" 
+	              				style="color: navy;"
+	              				onclick="window.open('http://www.babelzilla.org/forum/index.php?showuser=3358');   window.close();"
+                      				onmouseover="this.style.cursor='pointer'; "   
+        				/>
+					<text value="        	fr-FR         myahoo"
+		      				class="url" 
+	              				style="color: navy;"
+	              				onclick="window.open('http://www.babelzilla.org/forum/index.php?showuser=352');   window.close();"
+                      				onmouseover="this.style.cursor='pointer'; "   
+        				/>
+
+					<separator class="thin"/>
+					<text value="&InBasic.Ph.About.Tab1.HomePage;" style="font-weight: bold;"/>
+					<text value="       :::addons.mozilla(3239):::    " 
+              					class="url"
+	              				onclick="window.open('https://addons.mozilla.org/en-US/firefox/addon/3239'); window.close();"
+                      				onmouseover="this.style.cursor='pointer'; "  
+        	      				style="color: navy;"
+					/>
+				</columb>
+				<columb orient="vertical" pack="center" >
+	        			<image src="chrome://inbasicph/skin/inb.png"/>
+				</columb>
+			</box>
+		</tabpanel >
+		<tabpanel >
+			<tabbox  flex="1" selectedIndex="0">
+  				<tabs  >
+    					<tab  class="PhTab" label="&InBasic.Ph.About.Tab2.Tab1;"  oncommand="
+    						getElementById('Ph.About.IMG').src='chrome://inbasicph/skin/Review.gif'   ;
+    						getElementById('Ph.About.Tab2.Tab1.fram').contentDocument.location='https://addons.mozilla.org/en-US/firefox/reviews/display/3239';"/>
+    					<tab  class="PhTab" label="&InBasic.Ph.About.Tab2.Tab2;" oncommand="
+    						getElementById('Ph.About.IMG').src='chrome://inbasicph/skin/Review.gif'   ;
+    						getElementById('Ph.About.Tab2.Tab2.fram').contentDocument.location='https://addons.mozilla.org/en-US/firefox/reviews/add/3239';"/>
+    					<tab  class="PhTab" label="&InBasic.Ph.About.Tab2.Tab3;" oncommand="
+    						getElementById('Ph.About.IMG').src='chrome://inbasicph/skin/Discuss.png'   ;
+    						getElementById('Ph.About.Tab2.Tab3.fram').contentDocument.location='https://addons.mozilla.org/en-US/firefox/discussions/?AddOnID=3239' "/>
+    					<tab  class="PhTab" label="&InBasic.Ph.About.Tab2.Tab4;" oncommand="
+    						getElementById('Ph.About.IMG').src='chrome://inbasicph/skin/Discuss.png'   ;
+    						getElementById('Ph.About.Tab2.Tab4.fram').contentDocument.location='https://addons.mozilla.org/en-US/firefox/users/login/?to=%2Fdiscussions%2Fpost.php%3FAddOnID%3D3239' "/>
+				</tabs>
+
+				<tabpanels  class="PhTabpanels2"  flex="1">
+					<tabpanel  orient="vertical" >
+					  	<label value="&InBasic.Ph.About.Tab2.lbl;"  />
+					  	<iframe  id="Ph.About.Tab2.Tab1.fram" flex="1" />
+					</tabpanel>
+					<tabpanel  orient="vertical" >
+					  	<label value="&InBasic.Ph.About.Tab2.lbl;"  />
+					  	<iframe  id="Ph.About.Tab2.Tab2.fram" flex="1" />
+					</tabpanel>
+					<tabpanel  orient="vertical" >
+					  	<label value="&InBasic.Ph.About.Tab2.lbl;"  />
+					  	<iframe  id="Ph.About.Tab2.Tab3.fram" flex="1" />
+					</tabpanel>
+					<tabpanel  orient="vertical" >
+					  	<label value="&InBasic.Ph.About.Tab2.lbl;"  />
+					  	<iframe  id="Ph.About.Tab2.Tab4.fram" border="0"  flex="1" />
+					</tabpanel>
+				</tabpanels>
+			</tabbox>
+		</tabpanel >
+	</tabpanels>
+</tabbox>
+
+</window>

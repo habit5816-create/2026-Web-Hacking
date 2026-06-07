@@ -1,0 +1,69 @@
+<!ENTITY InBasic.Ph.Option.Title "选项 - InBasic">
+<!ENTITY InBasic.Ph.Option.Tab1.Title "代理设置">
+<!ENTITY InBasic.Ph.Option.Tab2.Title "控制器">
+<!ENTITY InBasic.Ph.Option.Tab3.Title "更新服务器">
+<!ENTITY InBasic.Ph.Option.Tab4.Title "状态查看模式">
+<!ENTITY InBasic.Ph.Option.Tab5.Title "左键单击动作">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl1 "当前使用的服务器：">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl2 "服务器类型：">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl3 "输入 PhProxy 服务器地址：">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl4 "">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl5 "例如：http://SomePhServer.com/">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl6 "可用的服务器类型：PHProxy 0.4 © 2005 Or PHProxy 0.5b2 © 2007">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl7 "此版本不可用">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl8 "一般">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl9 "高级">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl10 "其他可用的服务器">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl11 "使用默认服务器">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl12 "保存新服务器">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl13 "">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl1 "PhProxy 服务器控制：">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl2 "页面示意：">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl3 "脚本和 Cookies">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl4 "网站页头">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl5 "显示迷你地址表单">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl6 "显示图片">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl7 "去除页面标题">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl8 "去除客户端脚本（JavaScript）">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl9 "保存 cookies">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl10 "去除页面元标签">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl11 "仅在当前会话中保存 cookies">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl12 "显示实际的来源站点">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl13 "使用默认设置">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl14 "保存当前设置">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl15 "">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl1 "更新或修改你的 PhProxy 代理服务器：">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl2 "网址：">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl3 "选择更新服务器：">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl4 "提交">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl5 "默认服务器">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl6 "被保护的服务器">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl7 "从更新服务器更新">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl8 "请稍等…">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl9 "删除">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl10 "保存">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl11 "">
+<!ENTITY InBasic.Ph.Option.Tab4.lbl1 "如何查看解码的网址：">
+<!ENTITY InBasic.Ph.Option.Tab4.lbl2 "预览：">
+<!ENTITY InBasic.Ph.Option.Tab4.lbl3 "显示在状态栏（代替编码的网址）">
+<!ENTITY InBasic.Ph.Option.Tab4.lbl4 "显示在弹出提示（编码的网址将显示在状态栏）">
+<!ENTITY InBasic.Ph.Option.Tab4.lbl5 "不显示">
+<!ENTITY InBasic.Ph.Option.Tab4.lbl6 "保存">
+<!ENTITY InBasic.Ph.Option.Tab4.lbl7 "">
+<!ENTITY InBasic.Ph.Option.Tab5.lbl1 "选择左键点击图标时的动作：">
+<!ENTITY InBasic.Ph.Option.Tab5.lbl2 "通过代理打开当前页面">
+<!ENTITY InBasic.Ph.Option.Tab5.lbl3 "安全的粘贴并转到">
+<!ENTITY InBasic.Ph.Option.Tab5.lbl4 "在新标签安全的粘贴并转到">
+<!ENTITY InBasic.Ph.Option.Tab5.lbl5 "保存">
+<!ENTITY InBasic.Ph.Option.Tab5.lbl6 "">
+<!ENTITY InBasic.Ph.Option.alert1 "请选择其他服务器，此服务器不可用！">
+<!ENTITY InBasic.Ph.Option.alert2 "PhProxy 代理服务器修改成功">
+<!ENTITY InBasic.Ph.Option.alert3 "请输入 PhProxy 代理服务器并重试">
+<!ENTITY InBasic.Ph.Option.alert4 "控制设置保存成功。">
+<!ENTITY InBasic.Ph.Option.alert5 "请输入网址！">
+<!ENTITY InBasic.Ph.Option.alert6 "请从列表中选择后编辑">
+<!ENTITY InBasic.Ph.Option.alert7 "请从列表中选择后删除">
+<!ENTITY InBasic.Ph.Option.alert8 "新服务器列表保存成功">
+<!ENTITY InBasic.Ph.Option.alert9 "状态栏查看模式保存成功">
+<!ENTITY InBasic.Ph.Option.alert10 "左键单击动作设置成功">
+<!ENTITY InBasic.Ph.Option.alert11 "">

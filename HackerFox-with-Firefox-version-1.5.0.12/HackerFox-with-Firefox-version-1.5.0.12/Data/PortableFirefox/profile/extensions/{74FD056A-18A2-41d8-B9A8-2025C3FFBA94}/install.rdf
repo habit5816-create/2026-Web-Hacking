@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+	<Description about="urn:mozilla:install-manifest">
+	
+		<em:id>{74FD056A-18A2-41d8-B9A8-2025C3FFBA94}</em:id>
+		<em:name>Super DragAndGo</em:name>
+		<em:version>0.2.6</em:version>
+		<em:description>Drag a link or anything like a uri (e.g. "abc.com" ), and throw it to anywhere blank on the webpage to open the it in a new tab.</em:description>
+		<em:creator>morphis</em:creator>
+		<em:contributor>asqueella MonkeeSage NetOne</em:contributor>
+		<em:homepageURL>http://morphis.eu.org/</em:homepageURL>
+		
+		<!-- Front End Integration Hooks (used by Extension Manager)-->
+    		<em:optionsURL>chrome://superdrag/content/superdragSettings.xul</em:optionsURL>
+    		
+		<em:file>
+			<Description about="urn:mozilla:extension:file:superdrag.jar">
+			<em:package>content/</em:package>
+			<em:locale>locale/en-US/</em:locale>
+			</Description>
+		</em:file>
+				
+		
+		<em:targetApplication>
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>1.0</em:minVersion>
+				<em:maxVersion>3.0a1</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+	
+	</Description>
+
+</RDF>

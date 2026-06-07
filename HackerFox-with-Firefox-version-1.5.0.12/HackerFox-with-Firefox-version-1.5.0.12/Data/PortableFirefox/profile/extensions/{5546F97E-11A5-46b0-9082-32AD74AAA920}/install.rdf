@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+ <Description about="urn:mozilla:install-manifest">
+   <em:id>{5546F97E-11A5-46b0-9082-32AD74AAA920}</em:id>
+   <em:version>0.6.3</em:version>
+   <em:type>2</em:type>
+   <em:targetApplication><!-- Firefox -->
+     <Description>
+       <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+       <em:minVersion>1.0</em:minVersion>
+       <em:maxVersion>8.*</em:maxVersion>
+     </Description>
+   </em:targetApplication>
+   <em:name>InFormEnter</em:name>
+   <em:description>Helper for form filling in semi-automatic mode.</em:description>
+   <em:creator>Mykola Onyschuk</em:creator>
+   <em:contributor>Armin C. Schneider (DE locale)</em:contributor>
+   <em:contributor>Luana Di Muzio (IT locale)</em:contributor>
+   <em:contributor>SlovakSoft (SK locale)</em:contributor> 
+   <em:contributor>Zaffo (NL locale)</em:contributor>
+   <em:contributor>Leszek(teo)Życzkowski  (PL locale)</em:contributor>
+   <em:contributor>mslagmu, Goofy, Monique (FR locale)</em:contributor>
+   <em:contributor>Urko (ES locale)</em:contributor>
+   <em:contributor>Norah (JP locale)</em:contributor>
+   <em:contributor>ooooo (TH locale)</em:contributor>
+   <em:contributor>Chang-Ning Zhu ( locale)</em:contributor>
+   <em:contributor>Alberto E. Kuniyoshi (pt-BR locale)</em:contributor>
+   <em:contributor>Toni Almeida (pt-PT locale)</em:contributor>
+   <em:contributor>Celikbas (TR locale)</em:contributor>
+   <em:contributor>Marcus Hsu (zh-TW locale)</em:contributor>
+   <em:contributor>Jakub Tománek (CZ locale)</em:contributor>
+   <em:contributor>lord1980 (AR locale)</em:contributor>
+   <em:contributor>DELer (icon design)</em:contributor>
+   <em:contributor>Sergey Skobyakov (programming tips)</em:contributor>
+   <em:contributor>SiiiE (HE locale)</em:contributor>
+   <em:contributor>fenya25 (HU locale)</em:contributor>
+   <em:homepageURL>http://informenter.mozdev.org/</em:homepageURL>
+   <em:optionsURL>chrome://informenter/content/ife_options.xul</em:optionsURL>
+   <em:iconURL>chrome://informenter/skin/about.png</em:iconURL>
+ </Description>
+</RDF>

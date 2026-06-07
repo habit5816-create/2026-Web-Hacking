@@ -1,0 +1,58 @@
+.PhTab
+{
+	-moz-appearance: none;
+	-moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-bottom-colors: none;
+	
+	margin: 2px;
+	border: 2px solid rgb(166,166,166);
+	text-align:center;
+	background-color: transparent;
+}
+
+.PhTab[selected="true"]
+{
+	color: blue;
+}	
+
+.PhTab:hover
+{
+	cursor: pointer;
+}		
+
+.PhTabs
+{
+	border: thin solid ;
+	padding: 5pt;
+}
+
+.PhTabpanels
+{
+	-moz-appearance: none;
+    -moz-border-top-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-bottom-colors: none;
+	
+	margin-left: 5px;
+	border: 1px solid;
+}
+
+.PhTabpanels2
+{
+	-moz-appearance: none;
+	border-style:hidden;
+}
+
+.PhHeaderFont
+{
+	background-color:rgb(150,150,150);
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	color:white;
+	font-size:130%;
+	font-weight:bold;
+}

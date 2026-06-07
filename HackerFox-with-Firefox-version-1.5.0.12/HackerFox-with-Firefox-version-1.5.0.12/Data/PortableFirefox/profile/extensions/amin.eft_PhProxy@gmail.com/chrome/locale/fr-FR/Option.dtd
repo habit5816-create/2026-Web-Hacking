@@ -1,0 +1,69 @@
+<!ENTITY InBasic.Ph.Option.Title "Options - InBasic">
+<!ENTITY InBasic.Ph.Option.Tab1.Title "Réglage du proxy">
+<!ENTITY InBasic.Ph.Option.Tab2.Title "Contrôleurs">
+<!ENTITY InBasic.Ph.Option.Tab3.Title "Mise à jour des serveurs">
+<!ENTITY InBasic.Ph.Option.Tab4.Title "Mode d&apos;affichage de l&apos;état">
+<!ENTITY InBasic.Ph.Option.Tab5.Title "Paramétrer le clic gauche">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl1 "Le serveur actuel est : ">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl2 "   Type de serveur : ">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl3 "Entrer l&apos;adresse du serveur PhProxy :">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl4 "">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl5 "Exemple :      http://unPhServeur.com/">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl6 "Serveurs acceptés : PHProxy 0.4 © 2005, ou PHProxy 0.5b2 © 2007">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl7 "Non disponible pour cette version">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl8 "Paramétrage simple">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl9 "Paramétrage avancé">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl10 "Autres serveurs disponibles">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl11 "Utiliser le serveur par défaut">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl12 "Enregistrer comme nouveau serveur">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl13 "">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl1 "Contrôle de serveur PhProxy :">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl2 "Schéma de la page :">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl3 "Scripts et cookies">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl4 "En-tête de site Web">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl5 "Ajouter un mini-formulaire pour l&apos;URL, en tête de chaque page">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl6 "Afficher les images des pages visitées">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl7 "Enlever le titre de la page">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl8 "Enlever le script côté-client (c&apos;est à dire le JavaScript)">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl9 "Autoriser l&apos;enregistrement des cookies">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl10 "Enlever les balises de méta-informations des pages visitées">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl11 "N&apos;enregistrer les cookies que pour cette session">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl12 "Voir le véritable site Web d&apos;origine">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl13 "Utiliser les valeurs par défaut">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl14 "Enregistrer les nouveaux réglages">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl15 "">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl1 "Mettre à jour ou modifier vos serveurs PhProxy :">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl2 "Nouveau site :">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl3 "Choisissez le serveur pour la mise à jour :">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl4 "Éditer">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl5 "Serveur par défaut">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl6 "Serveur protégé">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl7 "Mettre à jour depuis le serveur">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl8 "Merci de patienter…">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl9 "Effacer">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl10 "Enregistrer">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl11 "">
+<!ENTITY InBasic.Ph.Option.Tab4.lbl1 "Comment vous voulez voir les adresses non codées :">
+<!ENTITY InBasic.Ph.Option.Tab4.lbl2 "Prévisualiser :">
+<!ENTITY InBasic.Ph.Option.Tab4.lbl3 "Voir dans la barre d&apos;adresse (remplacement de l&apos;adresse codée)">
+<!ENTITY InBasic.Ph.Option.Tab4.lbl4 "Voir dans un popup (l&apos;adresse codée sera montrée dans la barre d&apos;état)">
+<!ENTITY InBasic.Ph.Option.Tab4.lbl5 "Rien">
+<!ENTITY InBasic.Ph.Option.Tab4.lbl6 "Enregistrer">
+<!ENTITY InBasic.Ph.Option.Tab4.lbl7 "">
+<!ENTITY InBasic.Ph.Option.Tab5.lbl1 "Vous pouvez choisir l&apos;action correspondant au clic gauche :">
+<!ENTITY InBasic.Ph.Option.Tab5.lbl2 "Ouvrir la page actuelle via un proxy">
+<!ENTITY InBasic.Ph.Option.Tab5.lbl3 "Coller-et-aller sécurisé">
+<!ENTITY InBasic.Ph.Option.Tab5.lbl4 "Coller-et-aller sécurisé dans un nouvel onglet">
+<!ENTITY InBasic.Ph.Option.Tab5.lbl5 "Enregistrer">
+<!ENTITY InBasic.Ph.Option.Tab5.lbl6 "">
+<!ENTITY InBasic.Ph.Option.alert1 "Choisissez un autre serveur, celui-ci n&apos;est pas encore défini !">
+<!ENTITY InBasic.Ph.Option.alert2 "Le serveur PhProxy a été modifié avec succès">
+<!ENTITY InBasic.Ph.Option.alert3 "Merci d&apos;entrer un serveur PhProxy Server et de réessayer">
+<!ENTITY InBasic.Ph.Option.alert4 "Paramètres enregistrés avec succès">
+<!ENTITY InBasic.Ph.Option.alert5 "Merci d&apos;entrer d&apos;abord l&apos;URL !">
+<!ENTITY InBasic.Ph.Option.alert6 "Merci de sélectionner dans la liste ce qui est à éditer">
+<!ENTITY InBasic.Ph.Option.alert7 "Merci de sélectionner dans la liste ce qui est à supprimer">
+<!ENTITY InBasic.Ph.Option.alert8 "La nouvelle liste de serveurs a été enregistrée avec succès">
+<!ENTITY InBasic.Ph.Option.alert9 "Le nouveau réglage de la barre d&apos;état a été enregistré avec succès">
+<!ENTITY InBasic.Ph.Option.alert10 "Les nouvelles options du clic gauche ont été enregistrées avec succès">
+<!ENTITY InBasic.Ph.Option.alert11 "">

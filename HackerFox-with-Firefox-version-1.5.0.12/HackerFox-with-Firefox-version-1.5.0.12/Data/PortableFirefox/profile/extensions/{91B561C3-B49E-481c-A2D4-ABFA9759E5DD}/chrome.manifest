@@ -1,0 +1,5 @@
+
+overlay	chrome://navigator/content/navigator.xul	chrome://openwebfolder/content/overlay.xul
+overlay	chrome://browser/content/browser.xul	chrome://openwebfolder/content/overlay.xul
+overlay	chrome://messenger/content/mailWindowOverlay.xul	chrome://openwebfolder/content/overlay-tb.xul
+content	openwebfolder	jar:chrome/openwebfolder.jar!/content/

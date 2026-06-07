@@ -1,0 +1,52 @@
+
+overlay	chrome://browser/content/browser.xul	chrome://informenter/content/informenter.xul
+overlay	chrome://navigator/content/navigator.xul	chrome://informenter/content/informenter.xul
+content	informenter	jar:chrome/informenter.jar!/content/informenter/
+content	informenter	jar:chrome/informenter.jar!/content/informenter/	contentaccessible=yes
+
+skin	informenter	classic/1.0	jar:chrome/informenter.jar!/skin/classic/informenter/
+
+locale	informenter	ar-AR	jar:chrome/informenter.jar!/locale/ar-AR/informenter/
+
+locale	informenter	cs-CZ	jar:chrome/informenter.jar!/locale/cs-CZ/informenter/
+
+locale	informenter	da-DA	jar:chrome/informenter.jar!/locale/da-DA/informenter/
+
+locale	informenter	de-DE	jar:chrome/informenter.jar!/locale/de-DE/informenter/
+
+locale	informenter	en-US	jar:chrome/informenter.jar!/locale/en-US/informenter/
+
+locale	informenter	es-ES	jar:chrome/informenter.jar!/locale/es-ES/informenter/
+
+locale	informenter	fi-FI	jar:chrome/informenter.jar!/locale/fi-FI/informenter/
+
+locale	informenter	fr-FR	jar:chrome/informenter.jar!/locale/fr-FR/informenter/
+
+locale	informenter	he-IL	jar:chrome/informenter.jar!/locale/he-IL/informenter/
+
+locale	informenter	hu-HU	jar:chrome/informenter.jar!/locale/hu-HU/informenter/
+
+locale	informenter	it-IT	jar:chrome/informenter.jar!/locale/it-IT/informenter/
+
+locale	informenter	ja-JP	jar:chrome/informenter.jar!/locale/ja-JP/informenter/
+
+locale	informenter	nl-NL	jar:chrome/informenter.jar!/locale/nl-NL/informenter/
+
+locale	informenter	pl-PL	jar:chrome/informenter.jar!/locale/pl-PL/informenter/
+
+locale	informenter	pt-BR	jar:chrome/informenter.jar!/locale/pt-BR/informenter/
+
+locale	informenter	pt-PT	jar:chrome/informenter.jar!/locale/pt-PT/informenter/
+
+locale	informenter	ru-RU	jar:chrome/informenter.jar!/locale/ru-RU/informenter/
+
+locale	informenter	sk-SK	jar:chrome/informenter.jar!/locale/sk-SK/informenter/
+
+locale	informenter	th-TH	jar:chrome/informenter.jar!/locale/th-TH/informenter/
+
+locale	informenter	tr-TR	jar:chrome/informenter.jar!/locale/tr-TR/informenter/
+
+locale	informenter	zh-CN	jar:chrome/informenter.jar!/locale/zh-CN/informenter/
+
+locale	informenter	zh-TW	jar:chrome/informenter.jar!/locale/zh-TW/informenter/
+

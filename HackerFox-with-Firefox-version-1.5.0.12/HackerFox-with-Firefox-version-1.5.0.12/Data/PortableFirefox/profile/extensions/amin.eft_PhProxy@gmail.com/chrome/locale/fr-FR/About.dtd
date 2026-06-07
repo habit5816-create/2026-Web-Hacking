@@ -1,0 +1,13 @@
+<!ENTITY InBasic.Ph.ExtensionName "PhProxy - InBasic">
+<!ENTITY InBasic.Ph.Description "Pour ouvrir les pages bloquées en un simple clic, grâce au serveur PhProxy.">
+<!ENTITY InBasic.Ph.About.Title "À propos - InBasic">
+<!ENTITY InBasic.Ph.About.Tab1 "À propos">
+<!ENTITY InBasic.Ph.About.Tab1.Title "À propos de cette extension">
+<!ENTITY InBasic.Ph.About.Tab1.CreatedBy "Créée par :">
+<!ENTITY InBasic.Ph.About.Tab1.HomePage "Visiter la page Web :">
+<!ENTITY InBasic.Ph.About.Tab2 "Critiques et discussions">
+<!ENTITY InBasic.Ph.About.Tab2.lbl "Merci de patienter durant le chargement de la page Web…">
+<!ENTITY InBasic.Ph.About.Tab2.Tab1 "Critiques">
+<!ENTITY InBasic.Ph.About.Tab2.Tab2 "Ajouter une critique">
+<!ENTITY InBasic.Ph.About.Tab2.Tab3 "Discussions">
+<!ENTITY InBasic.Ph.About.Tab2.Tab4 "Ajouter une discussion">

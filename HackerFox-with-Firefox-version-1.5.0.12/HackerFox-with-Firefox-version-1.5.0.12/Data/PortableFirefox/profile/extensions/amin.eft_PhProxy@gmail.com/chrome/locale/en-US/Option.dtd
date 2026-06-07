@@ -1,0 +1,87 @@
+<!ENTITY InBasic.Ph.Option.Title      "Option - InBasic">
+<!ENTITY InBasic.Ph.Option.Tab1.Title "Proxy Setup">
+<!ENTITY InBasic.Ph.Option.Tab2.Title "Controllers">
+<!ENTITY InBasic.Ph.Option.Tab3.Title "Server Updating">
+<!ENTITY InBasic.Ph.Option.Tab4.Title "Status View Mode">
+<!ENTITY InBasic.Ph.Option.Tab5.Title "Adjust Left Click">
+
+<!ENTITY InBasic.Ph.Option.Tab1.lbl1  "Current Server is:     ">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl2  "     Server Type: ">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl3  "Enter PhProxy Server Address:">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl4  "">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl5  "Example:      http://SomePhServer.com/">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl6  "Acceptable Servers: PHProxy 0.4 © 2005 Or PHProxy 0.5b2 © 2007">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl7  "Not available in this version">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl8  "Simple Setup">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl9  "Advance Setup">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl10 "Other Availble Servers">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl11 "Use Default Server">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl12 "Save New Server">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl13 "">
+
+<!ENTITY InBasic.Ph.Option.Tab2.lbl1  "Control PhProxy Server:">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl2  "Schematic of Page:">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl3  "Script and Cookies">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl4  "Website Header">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl5  "Include mini URL-form on every page">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl6  "Show images on browsed pages">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl7  "Strip page title">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl8  "Remove client-side scripting (i.e JavaScript)">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl9  "Allow cookies to be stored">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl10 "Strip meta information tags from pages">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl11 "Store cookies for this session only">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl12 "Show actual referring Website">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl13 "Use Default Values">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl14 "Save New Setting">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl15 "">
+
+<!ENTITY InBasic.Ph.Option.Tab3.lbl1  "Update or Modify your PhProxy Servers:">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl2  "New Site: ">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl3  "Choose Updating Server.">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl4  "Edit">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl5  "Default Server">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl6  "Protected Server">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl7  "Update from Server">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl8  "Please wait...">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl9  "Delete">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl10 "Save">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl11 "">
+
+
+
+<!ENTITY InBasic.Ph.Option.Tab4.lbl1  "How do you want to view Decoded Addresses:">
+<!ENTITY InBasic.Ph.Option.Tab4.lbl2  "Preview:">
+<!ENTITY InBasic.Ph.Option.Tab4.lbl3  "View in Status Bar (Replace with Code Address)">
+<!ENTITY InBasic.Ph.Option.Tab4.lbl4  "View in Popup (Code Address will be shown in Status Bar)">
+<!ENTITY InBasic.Ph.Option.Tab4.lbl5  "Non">
+<!ENTITY InBasic.Ph.Option.Tab4.lbl6  "Save">
+<!ENTITY InBasic.Ph.Option.Tab4.lbl7  "">
+
+<!ENTITY InBasic.Ph.Option.Tab5.lbl1  "You can choose Left Click Command:">
+<!ENTITY InBasic.Ph.Option.Tab5.lbl2  "Open This Page By PhProxy">
+<!ENTITY InBasic.Ph.Option.Tab5.lbl3  "Secure Paste and Go">
+<!ENTITY InBasic.Ph.Option.Tab5.lbl4  "Secure Paste and Go in New Tab">
+<!ENTITY InBasic.Ph.Option.Tab5.lbl5  "Save">
+<!ENTITY InBasic.Ph.Option.Tab5.lbl6  "">
+
+<!ENTITY InBasic.Ph.Option.alert1     "Select another Server, This server does not set yet!">
+<!ENTITY InBasic.Ph.Option.alert2     "PhProxy Server Changes Successfully">
+<!ENTITY InBasic.Ph.Option.alert3     "Please Enter PhProxy Server and Try again">
+<!ENTITY InBasic.Ph.Option.alert4     "Controllers saved successfully.">
+<!ENTITY InBasic.Ph.Option.alert5     "Please Enter URL first!">
+<!ENTITY InBasic.Ph.Option.alert6     "Please Select from List to Edit">
+<!ENTITY InBasic.Ph.Option.alert7     "Please Select from List to Delete">
+<!ENTITY InBasic.Ph.Option.alert8     "New Server List Saved Successfully">
+<!ENTITY InBasic.Ph.Option.alert9     "New StatusBar ViewMode Saved Successfully">
+<!ENTITY InBasic.Ph.Option.alert10    "New Left Click Option Set Successfully">
+<!ENTITY InBasic.Ph.Option.alert11    "">
+
+
+
+
+
+
+
+
+
+

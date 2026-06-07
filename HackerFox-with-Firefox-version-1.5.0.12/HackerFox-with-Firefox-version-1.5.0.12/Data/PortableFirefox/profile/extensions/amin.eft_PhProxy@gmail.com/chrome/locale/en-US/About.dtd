@@ -1,0 +1,20 @@
+<!ENTITY InBasic.Ph.ExtensionName "PhProxy-InBasic">
+<!ENTITY InBasic.Ph.Description "Open Block Pages using web base Proxy (PhProxy) by click on P Icon in Statusbar">
+
+<!ENTITY InBasic.Ph.About.Title "About - InBasic">
+
+<!ENTITY InBasic.Ph.About.Tab1 "About">
+<!ENTITY InBasic.Ph.About.Tab1.Title "About This Extension">
+<!ENTITY InBasic.Ph.About.Tab1.CreatedBy "Created By:">
+<!ENTITY InBasic.Ph.About.Tab1.HomePage "Home Page:">
+
+<!ENTITY InBasic.Ph.About.Tab2 "Rate and Discuss">
+<!ENTITY InBasic.Ph.About.Tab2.lbl "Please wait until Webpage load.">
+<!ENTITY InBasic.Ph.About.Tab2.Tab1 "Reviews">
+<!ENTITY InBasic.Ph.About.Tab2.Tab2 "Add Review">
+<!ENTITY InBasic.Ph.About.Tab2.Tab3 "Discussions">
+<!ENTITY InBasic.Ph.About.Tab2.Tab4 "Add Discussion">
+
+
+
+

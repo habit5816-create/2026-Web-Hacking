@@ -1,0 +1,13 @@
+<!ENTITY InBasic.Ph.ExtensionName "PhProxy-InBasic">
+<!ENTITY InBasic.Ph.Description "PhProxy Server로 한번의 클릭으로 차단된 페이지를 엽니다.">
+<!ENTITY InBasic.Ph.About.Title "확장기능 정보 - InBasic">
+<!ENTITY InBasic.Ph.About.Tab1 "정보">
+<!ENTITY InBasic.Ph.About.Tab1.Title "이 확장기능에 대해서">
+<!ENTITY InBasic.Ph.About.Tab1.CreatedBy "제작:">
+<!ENTITY InBasic.Ph.About.Tab1.HomePage "홈 페이지:">
+<!ENTITY InBasic.Ph.About.Tab2 "평가 및 토론">
+<!ENTITY InBasic.Ph.About.Tab2.lbl "웹 페이지를 불러올때까지 기다려 주세요.">
+<!ENTITY InBasic.Ph.About.Tab2.Tab1 "리뷰">
+<!ENTITY InBasic.Ph.About.Tab2.Tab2 "리뷰 추가">
+<!ENTITY InBasic.Ph.About.Tab2.Tab3 "토론">
+<!ENTITY InBasic.Ph.About.Tab2.Tab4 "토론 추가">

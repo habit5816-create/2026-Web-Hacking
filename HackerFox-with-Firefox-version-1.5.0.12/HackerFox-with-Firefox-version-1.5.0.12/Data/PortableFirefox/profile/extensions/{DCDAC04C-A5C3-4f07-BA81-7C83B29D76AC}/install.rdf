@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{DCDAC04C-A5C3-4f07-BA81-7C83B29D76AC}</em:id>
+    <em:version>0.1.3</em:version>
+    <em:type>2</em:type>
+   
+    <!-- Target Application this extension can install into, 
+         with minimum and maximum supported versions. --> 
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>1.0</em:minVersion>
+        <em:maxVersion>1.5+</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+   
+    <!-- Front End MetaData -->
+    <em:name>NF-Tools</em:name>
+    <em:description>Convert text to i.e. different encodings.</em:description>
+    <em:creator>Marijn</em:creator>
+    <em:homepageURL>http://www.net-force.nl</em:homepageURL>
+    <em:aboutURL>chrome://nftools/content/about.xul</em:aboutURL>
+    <em:iconURL>chrome://nftools/skin/nftoolslogo.png</em:iconURL>
+   	<em:file>
+      <Description about="urn:mozilla:extension:file:nftools.jar">
+        <em:package>content/nftools/</em:package>
+        <em:skin>skin/classic/nftools/</em:skin>
+       </Description>
+     </em:file>
+  </Description>      
+</RDF>

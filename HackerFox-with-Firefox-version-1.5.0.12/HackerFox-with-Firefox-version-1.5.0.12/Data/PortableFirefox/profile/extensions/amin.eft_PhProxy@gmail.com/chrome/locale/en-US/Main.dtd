@@ -1,0 +1,40 @@
+<!ENTITY InBasic.Ph.ExtensionName     "PhProxy-InBasic">
+<!ENTITY InBasic.Ph.Description       "Open Block Pages using web base Proxy (PhProxy) by click on P Icon in Statusbar">
+
+<!ENTITY InBasic.Ph.Main.inf1         "PhProxy-InBasic">
+<!ENTITY InBasic.Ph.Main.inf2         "Left-Click: Adjustable Action">
+<!ENTITY InBasic.Ph.Main.inf3         "Right-Click: Show PopUp Menu">
+<!ENTITY InBasic.Ph.Main.inf4         "Open Addressbar URL by default Proxy Server">
+<!ENTITY InBasic.Ph.Main.inf5         "Open Clipboard URL by default Proxy Server">
+<!ENTITY InBasic.Ph.Main.inf6         "Personalize PhProxy - InBasic">
+
+<!ENTITY InBasic.Ph.Main.status1      "Open This Page By PhProxy">
+<!ENTITY InBasic.Ph.Main.status2      "Secure Paste and go">
+<!ENTITY InBasic.Ph.Main.status3      "Secure Paste and go in New Tab">
+<!ENTITY InBasic.Ph.Main.status4      "Option">
+<!ENTITY InBasic.Ph.Main.status5      "Help">
+<!ENTITY InBasic.Ph.Main.status6      "About">
+
+<!ENTITY InBasic.Ph.Main.Context.lbl1 "Open By PhProxy">
+<!ENTITY InBasic.Ph.Main.Context.lbl2 "Open By PhProxy in New Tab">
+
+<!ENTITY InBasic.Ph.Main.Alert1       "Empty ClipBoard !">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

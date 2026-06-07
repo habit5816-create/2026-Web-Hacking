@@ -1,0 +1,69 @@
+<!ENTITY InBasic.Ph.Option.Title "선택사항-InBasic">
+<!ENTITY InBasic.Ph.Option.Tab1.Title "프록시 설정">
+<!ENTITY InBasic.Ph.Option.Tab2.Title "제어기">
+<!ENTITY InBasic.Ph.Option.Tab3.Title "서버 갱신">
+<!ENTITY InBasic.Ph.Option.Tab4.Title "상태 보기모드">
+<!ENTITY InBasic.Ph.Option.Tab5.Title "왼쪽 클릭 설정">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl1 "현재 서버:">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl2 "서버 종류:">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl3 "PhProxy 서버 주소 입력:">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl4 "">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl5 "예제:    http://SomePhServer.com/">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl6 "조건에 맞는 서버: PHProxy 0.4 © 2005 Or PHProxy 0.5b2 © 2007">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl7 "이 버전에선 사용할 수 없습니다">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl8 "간단 설정">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl9 "고급 설정">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl10 "다른 이용할수 있는 서버">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl11 "기본 서버 사용">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl12 "새 서버 저장">
+<!ENTITY InBasic.Ph.Option.Tab1.lbl13 "">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl1 "PhProxy 서버 제어:">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl2 "페이지 도식:">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl3 "편집">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl4 "웹사이트 머리말">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl5 "모든 페이지 상에 작은 URL형식 포함">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl6 "찾아낸 페이지를 이미지로 표시">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl7 "페이지 제목 해체">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl8 "사용자 측 스크립트(예. JavaScrip) 삭제">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl9 "저장된 쿠키 허용">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl10 "페이지로 부터 메타 정보 태그 해체">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl11 "이 세션에서만 쿠기 저장">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl12 "현재 조회중인 웹사이트 표시">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl13 "기본 값 사용">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl14 "새 설정 저장">
+<!ENTITY InBasic.Ph.Option.Tab2.lbl15 "">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl1 "PhProxy 서버 갱신 또는 수정:">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl2 "새 사이트:">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl3 "갱신 서버 선택:">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl4 "편집">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl5 "기본 서버">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl6 "보호된 서버:">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl7 "서버로 부터 갱신:">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl8 "기다려주세요...">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl9 "삭제">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl10 "저장">
+<!ENTITY InBasic.Ph.Option.Tab3.lbl11 "">
+<!ENTITY InBasic.Ph.Option.Tab4.lbl1 "해독된 주소를 어떻게 보기를 원하나요:">
+<!ENTITY InBasic.Ph.Option.Tab4.lbl2 "미리보기:">
+<!ENTITY InBasic.Ph.Option.Tab4.lbl3 "상태 막대에 표시(코드 주소와 대체)">
+<!ENTITY InBasic.Ph.Option.Tab4.lbl4 "팝업에 표시 (코드 주소는 상태 막대에 표시됩니다.)">
+<!ENTITY InBasic.Ph.Option.Tab4.lbl5 "비">
+<!ENTITY InBasic.Ph.Option.Tab4.lbl6 "저장">
+<!ENTITY InBasic.Ph.Option.Tab4.lbl7 "">
+<!ENTITY InBasic.Ph.Option.Tab5.lbl1 "왼쪽 클릭 명령 선택:">
+<!ENTITY InBasic.Ph.Option.Tab5.lbl2 "프록시로 현재 페이지 열기">
+<!ENTITY InBasic.Ph.Option.Tab5.lbl3 "안전하게 붙여넣은 후 가기">
+<!ENTITY InBasic.Ph.Option.Tab5.lbl4 "새 탭으로 안전하게 붙여넣은 후 가기">
+<!ENTITY InBasic.Ph.Option.Tab5.lbl5 "저장">
+<!ENTITY InBasic.Ph.Option.Tab5.lbl6 "">
+<!ENTITY InBasic.Ph.Option.alert1 "또 다른 서버를 선택하세요, 이 서버는 설정되지 않았습니다!">
+<!ENTITY InBasic.Ph.Option.alert2 "성공적으로 PhProxy 서버를 변경했습니다">
+<!ENTITY InBasic.Ph.Option.alert3 "PhProxy 서버 입력 후 다시 시도하세요">
+<!ENTITY InBasic.Ph.Option.alert4 "제어기를 성공적으로 저장했습니다">
+<!ENTITY InBasic.Ph.Option.alert5 "먼저 URL을 입력하세요!">
+<!ENTITY InBasic.Ph.Option.alert6 "목록에서 편집할 것을 선택하세요">
+<!ENTITY InBasic.Ph.Option.alert7 "삭제할 것을 목록에서 선택하세요">
+<!ENTITY InBasic.Ph.Option.alert8 "새 서버 목록을 성공적으로 저장했습니다">
+<!ENTITY InBasic.Ph.Option.alert9 "새 상태막대 보기 모드를 성공적으로 저장했습니다">
+<!ENTITY InBasic.Ph.Option.alert10 "새 왼쪽 클릭 선택사항을 성공적으로 설정했습니다">
+<!ENTITY InBasic.Ph.Option.alert11 "">

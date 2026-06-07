@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type"text/css"?>
+<?xml-stylesheet href="chrome://browser/skin/browser.css" type="text/css"?>
+<?xml-stylesheet href="chrome://browser/content/bookmarks/bookmarks.css"?>
+<?xml-stylesheet href="chrome://technika/skin/technika.css" type="text/css"?>
+<!DOCTYPE dialog SYSTEM "chrome://technika/locale/technika.dtd">
+<dialog
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	id="selectBookmarkletDialog"
+	title="&technika.selectBookmarkletDialog.title;"
+	ondialogaccept="onOK(event)"
+	onload="Startup();"
+	persist="screenX screenY width height"
+	screenX="24" screenY="24"
+	style="width: 32em">
+	
+	<script type="application/x-javascript" src="chrome://technika/content/selectBookmarkletDialog.js"/>
+	<script type="application/x-javascript" src="chrome://browser/content/bookmarks/bookmarks.js"/>
+	<script type="application/x-javascript" src="chrome://global/content/globalOverlay.js"/>
+	
+	<description>&technika.selectBookmarkletDialog.description;</description>
+	
+	<separator class="thin"/>
+	
+	<bookmarks-tree id="bookmarks-view" style="height:15em; margin: 0px 4px;" flex="1" type="single-column"
+		onpopupshowing="return false;" onselect="updateOK();"
+		ondblclick="if (isValidLeftClick(event, 'treechildren')) onDblClick();"/>
+		
+	<separator class="thin"/>
+</dialog>

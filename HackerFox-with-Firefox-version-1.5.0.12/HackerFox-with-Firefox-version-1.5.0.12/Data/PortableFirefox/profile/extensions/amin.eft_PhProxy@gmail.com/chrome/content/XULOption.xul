@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://inbasicph/skin/Style.css" type="text/css"?>
+
+<!DOCTYPE window SYSTEM "chrome://inbasicph/locale/Option.dtd">
+
+<window class="dialog"
+	id="PhOption" 
+	autostretch="always"
+	title="Option - InBasic"  
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	onload="
+                var strType=ReadBool('NewPHP') ? '0.5b':'0.4';
+	        document.getElementById('Ph.Option.Tab1.Tab1.lblURL').value='&InBasic.Ph.Option.Tab1.lbl1;'+ReadStr('def_URL_F')+ '&InBasic.Ph.Option.Tab1.lbl2;' + strType;
+
+	        document.getElementById('Ph.Option.Tab2.Check1').checked=ReadBool('C_Check1');
+	        document.getElementById('Ph.Option.Tab2.Check2').checked=ReadBool('C_Check2');
+	        document.getElementById('Ph.Option.Tab2.Check3').checked=ReadBool('C_Check3');
+	        document.getElementById('Ph.Option.Tab2.Check4').checked=ReadBool('boolImage');
+	        document.getElementById('Ph.Option.Tab2.Check5').checked=ReadBool('C_Check5');
+	        document.getElementById('Ph.Option.Tab2.Check6').checked=ReadBool('C_Check6');
+	        document.getElementById('Ph.Option.Tab2.Check7').checked=ReadBool('C_Check7');
+	        document.getElementById('Ph.Option.Tab2.Check8').checked=ReadBool('C_Check8');
+
+	        document.getElementById('menu01').label=ReadStr('URL01');
+	        document.getElementById('menu02').label=ReadStr('URL02');
+	        document.getElementById('menu03').label=ReadStr('URL03');
+	        document.getElementById('menu04').label=ReadStr('URL04');
+	        document.getElementById('menu05').label=ReadStr('URL05');
+	        document.getElementById('menu06').label=ReadStr('URL06');
+	        document.getElementById('menu07').label=ReadStr('URL07');
+	        document.getElementById('menu08').label=ReadStr('URL08');
+
+	        document.getElementById('Ph.Option.Tab3.lst1').label=ReadStr('URL01');
+	        document.getElementById('Ph.Option.Tab3.lst2').label=ReadStr('URL02');
+	        document.getElementById('Ph.Option.Tab3.lst3').label=ReadStr('URL03');
+	        document.getElementById('Ph.Option.Tab3.lst4').label=ReadStr('URL04');
+	        document.getElementById('Ph.Option.Tab3.lst5').label=ReadStr('URL05');
+	        document.getElementById('Ph.Option.Tab3.lst6').label=ReadStr('URL06');
+	        document.getElementById('Ph.Option.Tab3.lst7').label=ReadStr('URL07');
+	        document.getElementById('Ph.Option.Tab3.lst8').label=ReadStr('URL08');
+
+
+
+	        if(ReadStr('infoShow')=='0'){
+		        document.getElementById('Ph.Option.Tab5.RadioG').selectedIndex=0;
+		        document.getElementById('PhStatusIMG').src='chrome://inbasicph/skin/InStatus.png'
+	        }
+	        else if(ReadStr('infoShow')=='1'){
+		        document.getElementById('Ph.Option.Tab5.RadioG').selectedIndex=1;
+		        document.getElementById('PhStatusIMG').src='chrome://inbasicph/skin/InPopUp.png'
+	        }
+	        else if(ReadStr('infoShow')=='2'){
+		        document.getElementById('Ph.Option.Tab5.RadioG').selectedIndex=2;
+		        document.getElementById('PhStatusIMG').src=''
+	        }
+
+
+	        if(ReadStr('LeftClick')=='0')
+		        document.getElementById('Ph.Option.Tab6.RadioG').selectedIndex=0;
+	        else if(ReadStr('LeftClick')=='1')
+		        document.getElementById('Ph.Option.Tab6.RadioG').selectedIndex=1;
+	        else if(ReadStr('LeftClick')=='2')
+		        document.getElementById('Ph.Option.Tab6.RadioG').selectedIndex=2;
+
+
+	        var strRules=ReadStr('Ph_Filter_Rules');
+	        var temp = new Array();
+	        temp = strRules.split('|||');
+	        for (i=0; i != temp.length ; i++)     
+		        if(temp[i]!='') document.getElementById('Ph.Option.Tab4.List').appendItem(temp[i],'');
+
+
+	        sizeToContent();
+
+	"
+>
+
+<script type="application/x-javascript" src="chrome://inbasicph/content/Base64.js"          />   
+<script type="application/x-javascript"	src="chrome://inbasicph/content/RW.js"                />  
+<script type="application/x-javascript" src="chrome://inbasicph/content/Update.js"          />  
+<script type="application/x-javascript"	src="file://C:\Users\EmptyBox\Desktop\Option.js" />  
+
+<tabbox id="myTabList" flex="1" orient="horizontal" selectedIndex="0">
+	<tabs class="PhTabs" orient="vertical" style="width: 120px;">
+    		<tab class="PhTab" label="&InBasic.Ph.Option.Tab1.Title;" oncommand="getElementById('phImgType').src='chrome://inbasicph/skin/Setting.png'"/>
+    		<tab class="PhTab"  label="&InBasic.Ph.Option.Tab2.Title;"  oncommand="getElementById('phImgType').src='chrome://inbasicph/skin/Controller.png'"/>
+    		<tab  class="PhTab" label="&InBasic.Ph.Option.Tab3.Title;"  oncommand="getElementById('phImgType').src='chrome://inbasicph/skin/BUpdate.png'"/>
+    		<tab  class="PhTab" label="&InBasic.Ph.Option.Tab4.Title;"  oncommand="getElementById('phImgType').src='chrome://inbasicph/skin/StatusInf.png'"/>
+    		<tab  class="PhTab" label="&InBasic.Ph.Option.Tab5.Title;" oncommand="getElementById('phImgType').src='chrome://inbasicph/skin/Mouse.png'"/>
+    		<image src='chrome://inbasicph/skin/Border.png'  height='12' />
+    		<box  flex="1"  align="center" pack="center">
+			<image id="phImgType" src='chrome://inbasicph/skin/Setting.png'  />
+    		</box>
+  	</tabs>
+
+  	<tabpanels class="PhTabpanels"  flex="1">
+    	<tabpanel orient="vertical"> 
+					<label class="PhHeaderFont" value="&InBasic.Ph.Option.Tab1.lbl3;"   style="font-weight: Bold;"   />
+                        		<vbox flex="1" pack="center" >
+					  	  <label id="Ph.Option.Tab1.Tab1.lblURL" />
+					  	  <hbox >
+					  	  	 <textbox flex="1" id="PhtxtURL" value="&InBasic.Ph.Option.Tab1.lbl5;" style="font-style: oblique;" 
+					  	  	 	onfocus="if (value=='&InBasic.Ph.Option.Tab1.lbl5;' ) value='';  style.fontStyle='normal'; "
+					  	  	 	onblur="if (value=='' ){value='&InBasic.Ph.Option.Tab1.lbl5;'; style.fontStyle='oblique' ;}"/>
+					  	  	 <menulist id='Ph.Option.Tab1.Tab1.pop'>  
+					  	   	 	 <menupopup >
+					  	   	 	 	 <menuitem label="0.5b2" value="1"/>
+					  	   	 	 	 <menuitem label="0.4" value="2"/>
+					  	   	 	 </menupopup>
+					  	  	 </menulist>  
+					  	  </hbox>
+
+					 	  <box align="left">
+                                			<menulist 
+                                        			id="menuID"   
+                                        			oncommand=" getElementById('PhtxtURL').style.fontStyle='normal'; document.getElementById('PhtxtURL').value=document.getElementById('menuID').label; " >			
+                                    				<menupopup>
+                                        				<menuitem  id='menu01' label='&InBasic.Ph.Option.Tab1.lbl10;'/>
+                                        				<menuitem  id='menu02' />
+                                        				<menuitem  id='menu03' />
+                                        				<menuitem  id='menu04' />
+                                        				<menuitem  id='menu05' />
+                                        				<menuitem  id='menu06' />
+                                        				<menuitem  id='menu07' />
+                                        				<menuitem  id='menu08' />
+                                    				</menupopup>
+                                			</menulist>
+
+                                			<spacer flex="1"/>
+
+                                			<button label="&InBasic.Ph.Option.Tab1.lbl11;"  onmouseover="this.style.cursor='pointer'; " 
+                                    				oncommand="getElementById('PhtxtURL').value=ReadStr('def_URL');   getElementById('PhtxtURL').style.fontStyle='normal'; "/>
+                                			<button  label="&InBasic.Ph.Option.Tab1.lbl12;" onmouseover="this.style.cursor='pointer'; " image="chrome://inbasicph/skin/save.png"  oncommand="
+                                          				var txtData= document.getElementById('PhtxtURL').value;
+                                          				if(txtData=='Not Set') 
+									{
+                                          					alert('&InBasic.Ph.Option.alert1;');
+                                          				}
+                                          				else if(!(txtData=='' || txtData=='Example:      http://SomePhServer.com/')) 
+									{
+                                          	  				if(txtData.substr(txtData.length-1,1)!='/'){ txtData=txtData+ '/'; }
+                                          	  				WriteStr('def_URL_F',txtData);
+                                          	  				if(getElementById('Ph.Option.Tab1.Tab1.pop').value=='1')WriteBool('NewPHP',true); else WriteBool('NewPHP',false);
+                                          	  				alert('&InBasic.Ph.Option.alert2;' ) ;
+                                          	  				var strType=ReadBool('NewPHP') ? '0.5b':'0.4';
+                                          	  				document.getElementById('Ph.Option.Tab1.Tab1.lblURL').value= '&InBasic.Ph.Option.Tab1.lbl1;' + ReadStr('def_URL_F') +  '     Server Type: ' + strType;
+                                          				}
+                                          				else 
+                                          	  				alert('&InBasic.Ph.Option.alert3;');
+                                			"/>
+
+						  </box>
+                        		</vbox>
+                        		<box pack="center" >
+						<label  value="&InBasic.Ph.Option.Tab1.lbl6;"  style="color: blue;"/>
+                        		</box>
+	</tabpanel >
+
+	<tabpanel orient="vertical"  > 
+		<box>
+			<label class="PhHeaderFont" flex="1" value="&InBasic.Ph.Option.Tab2.lbl1;"   style="font-weight: Bold;"   />
+		</box>
+		<box flex="1" pack="center" orient="vertical">
+  			<label value="&InBasic.Ph.Option.Tab2.lbl2;"   style="font-weight: Bold;"   />
+  			<colomb >
+  			  	<label value="      "   style="font-weight: Bold;"   />
+  			  	<box orient="vertical">
+			  	  	<checkbox id="Ph.Option.Tab2.Check1" label="&InBasic.Ph.Option.Tab2.lbl5;" />
+			  	  	<checkbox id="Ph.Option.Tab2.Check4" label="&InBasic.Ph.Option.Tab2.lbl6;" />
+			  	  	<checkbox id="Ph.Option.Tab2.Check7" label="&InBasic.Ph.Option.Tab2.lbl7;"/>
+  			  	</box>
+  			</colomb>
+  			<label value="&InBasic.Ph.Option.Tab2.lbl3;"   style="font-weight: Bold;"   />
+  			<colomb >
+  			  	<label value="      "   style="font-weight: Bold;"   />
+  			  	<box orient="vertical">
+			  	  	<checkbox id="Ph.Option.Tab2.Check2" label="&InBasic.Ph.Option.Tab2.lbl8;" />
+			  	  	<checkbox id="Ph.Option.Tab2.Check3" label="&InBasic.Ph.Option.Tab2.lbl9;" />
+			  	  	<checkbox id="Ph.Option.Tab2.Check6" label="&InBasic.Ph.Option.Tab2.lbl10;" />
+			  	  	<checkbox id="Ph.Option.Tab2.Check8" label="&InBasic.Ph.Option.Tab2.lbl11;"  />
+  			  	</box>
+  			</colomb>
+  			<label value="&InBasic.Ph.Option.Tab2.lbl4;"   style="font-weight: Bold;"   />
+  			<colomb >
+  			  	<label value="      "   style="font-weight: Bold;"   />
+  			  	<box orient="vertical">
+			  	  	<checkbox id="Ph.Option.Tab2.Check5" label="&InBasic.Ph.Option.Tab2.lbl12;" />
+  			  	</box>
+  			</colomb>
+		</box>
+		<box align="right">
+                	<button  label="&InBasic.Ph.Option.Tab2.lbl13;" onmouseover="this.style.cursor='pointer'; " oncommand="
+                    		document.getElementById('Ph.Option.Tab2.Check1').checked=false;
+                    		document.getElementById('Ph.Option.Tab2.Check2').checked=true;
+                    		document.getElementById('Ph.Option.Tab2.Check3').checked=true;
+                    		document.getElementById('Ph.Option.Tab2.Check4').checked=true;
+                    		document.getElementById('Ph.Option.Tab2.Check5').checked=true;
+                    		document.getElementById('Ph.Option.Tab2.Check6').checked=false;
+                    		document.getElementById('Ph.Option.Tab2.Check7').checked=false;
+                    		document.getElementById('Ph.Option.Tab2.Check8').checked=true;
+                	" />
+                	<button image="chrome://inbasicph/skin/save.png" label="&InBasic.Ph.Option.Tab2.lbl14;"  onmouseover="this.style.cursor='pointer'; " oncommand="
+                    		WriteBool('C_Check1',document.getElementById('Ph.Option.Tab2.Check1').checked);
+                    		WriteBool('C_Check2',document.getElementById('Ph.Option.Tab2.Check2').checked);
+                    		WriteBool('C_Check3',document.getElementById('Ph.Option.Tab2.Check3').checked);
+                    		WriteBool('boolImage',document.getElementById('Ph.Option.Tab2.Check4').checked);
+                    		WriteBool('C_Check5',document.getElementById('Ph.Option.Tab2.Check5').checked);
+                    		WriteBool('C_Check6',document.getElementById('Ph.Option.Tab2.Check6').checked);
+                    		WriteBool('C_Check7',document.getElementById('Ph.Option.Tab2.Check7').checked);
+                    		WriteBool('C_Check8',document.getElementById('Ph.Option.Tab2.Check8').checked);
+
+				alert('&InBasic.Ph.Option.alert4;');
+                	" />
+		</box>
+	</tabpanel>
+
+	<tabpanel orient="vertical">
+		<box>
+			<label class="PhHeaderFont" flex="1" value="&InBasic.Ph.Option.Tab3.lbl1;"   style="font-weight: Bold;"   />
+		</box>
+		<box flex="1" pack="center" orient="vertical">
+
+			<columns  orient="horizontal">
+				<column>
+						<label value="&InBasic.Ph.Option.Tab3.lbl2;"/>
+				</column>
+				<column flex="1">
+						<textbox id="Ph.Option.Tab3.txt"/>  
+				</column>
+				<column>
+                   			<button label="&InBasic.Ph.Option.Tab3.lbl4;"  oncommand="
+						if(getElementById('Ph.Option.Tab3.txt').value=='')
+                            				alert('&InBasic.Ph.Option.alert5;');
+						else if(getElementById('Ph.Option.Tab3.List').selectedIndex==-1)
+                            				alert('&InBasic.Ph.Option.alert6;');
+                       				else{
+                            				getElementById('Ph.Option.Tab3.List').getItemAtIndex(getElementById('Ph.Option.Tab3.List').selectedIndex).label =getElementById('Ph.Option.Tab3.txt').value;
+                        			}
+                    			"/>
+				</column>
+			</columns>
+
+			<listbox id="Ph.Option.Tab3.List" >
+				<listitem id='Ph.Option.Tab3.lst1' label="Not Set"/>
+				<listitem id='Ph.Option.Tab3.lst2' label="Not Set"/>
+				<listitem id='Ph.Option.Tab3.lst3' label="Not Set"/>
+				<listitem id='Ph.Option.Tab3.lst4' label="Not Set"/>
+				<listitem id='Ph.Option.Tab3.lst5' label="Not Set"/>
+				<listitem id='Ph.Option.Tab3.lst6' label="Not Set"/>
+				<listitem id='Ph.Option.Tab3.lst7' label="Not Set"/>
+				<listitem id='Ph.Option.Tab3.lst8' label="Not Set"/>
+			</listbox>
+
+			<columns orient="horizontal">
+				<column>
+					<spacer flex="1"/>
+					<label value="&InBasic.Ph.Option.Tab3.lbl3;"/>
+				</column>
+				<column flex="1">
+					<menulist id="Ph.Option.Tab3.menuUpdate">  
+						<menupopup >
+							<menuitem label="&InBasic.Ph.Option.Tab3.lbl5;" value="http://inb.6te.net/_prxy2/URL.inb"/>
+							<menuitem label="&InBasic.Ph.Option.Tab3.lbl6;" value="http://olylimited.com/index.php?q=aHR0cDovL2luYi42dGUubmV0L19wcnh5Mi9VUkwuaW5i"/>
+						</menupopup>
+					</menulist>    
+				</column>
+			</columns>
+		</box>
+		<box align="right">
+                	<button id="Ph.Option.Tab2.Cmd"  image="chrome://inbasicph/skin/Update.png" label="&InBasic.Ph.Option.Tab3.lbl7;" onmouseover="this.style.cursor='pointer'; "  oncommand="
+                		label='&InBasic.Ph.Option.Tab3.lbl8;'    ;            
+                    		var UpdateURL=getElementById('Ph.Option.Tab3.menuUpdate').value;
+                    		GetURL(UpdateURL,listener);
+                	"/>
+                	<button  image="chrome://inbasicph/skin/stop.png" label="&InBasic.Ph.Option.Tab3.lbl9;" onmouseover="this.style.cursor='pointer'; " oncommand="
+				if(getElementById('Ph.Option.Tab3.List').selectedIndex==-1)
+                            		alert('&InBasic.Ph.Option.alert7;');
+                       		else{
+                            		getElementById('Ph.Option.Tab3.List').getItemAtIndex(getElementById('Ph.Option.Tab3.List').selectedIndex).label ='Not Set';
+                        	}
+
+                	" />
+                	<button  image="chrome://inbasicph/skin/save.png" label="&InBasic.Ph.Option.Tab3.lbl10;"  onmouseover="this.style.cursor='pointer'; " oncommand="
+	       	       	       WriteStr('URL01',getElementById('Ph.Option.Tab3.lst1').label);
+	       	       	       WriteStr('URL02',getElementById('Ph.Option.Tab3.lst2').label);
+	       	       	       WriteStr('URL03',getElementById('Ph.Option.Tab3.lst3').label);
+	       	       	       WriteStr('URL04',getElementById('Ph.Option.Tab3.lst4').label);
+	       	       	       WriteStr('URL05',getElementById('Ph.Option.Tab3.lst5').label);
+	       	       	       WriteStr('URL06',getElementById('Ph.Option.Tab3.lst6').label);
+	       	       	       WriteStr('URL07',getElementById('Ph.Option.Tab3.lst7').label);
+	       	       	       WriteStr('URL08',getElementById('Ph.Option.Tab3.lst8').label);
+
+	       	       	       getElementById('menu01').label=ReadStr('URL01');
+	       	       	       getElementById('menu02').label=ReadStr('URL02');
+	       	       	       getElementById('menu03').label=ReadStr('URL03');
+	       	       	       getElementById('menu04').label=ReadStr('URL04');
+	       	       	       getElementById('menu05').label=ReadStr('URL05');
+	       	       	       getElementById('menu06').label=ReadStr('URL06');
+	       	       	       getElementById('menu07').label=ReadStr('URL07');
+	       	       	       getElementById('menu08').label=ReadStr('URL08');
+
+	       	       	       alert('&InBasic.Ph.Option.alert8;');
+                	"/>
+		</box>
+		</tabpanel >
+		<tabpanel  orient="vertical">
+			<box >
+				<label class="PhHeaderFont" flex="1"  value="&InBasic.Ph.Option.Tab4.lbl1;"   style="font-weight: Bold;"   />
+			</box>
+			<label value=" " />
+			<box flex="1"  orient="vertical">
+                <radiogroup id='Ph.Option.Tab5.RadioG'>
+  					<colomb >
+  			  			<label value="      "   style="font-weight: Bold;"   />
+			  	  		<radio id="Ph.Option.Tab5.Radio1" label="&InBasic.Ph.Option.Tab4.lbl3;" accesskey="S" selected="true" oncommand="getElementById('PhStatusIMG').src='chrome://inbasicph/skin/InStatus.png';"/>
+  					</colomb>
+  					<colomb >
+  			  			<label value="      "   style="font-weight: Bold;"   />
+			  	  		<radio id="Ph.Option.Tab5.Radio2" label="&InBasic.Ph.Option.Tab4.lbl4;"  accesskey="P"  oncommand="getElementById('PhStatusIMG').src='chrome://inbasicph/skin/InPopUp.png';"/>
+  					</colomb>
+  					<colomb >
+  			  			<label value="      "   style="font-weight: Bold;"   />
+			  	  		<radio id="Ph.Option.Tab5.Radio3" label="&InBasic.Ph.Option.Tab4.lbl5;"  accesskey="N"  oncommand="getElementById('PhStatusIMG').src='';"/>
+  					</colomb>
+                </radiogroup>
+			</box>
+
+			<box >
+			<label value="&InBasic.Ph.Option.Tab4.lbl2;"    />
+			<image  id='PhStatusIMG' src=''  />
+			</box >
+			<box align="right">
+				<button  image="chrome://inbasicph/skin/save.png" label="&InBasic.Ph.Option.Tab4.lbl6;"  onmouseover="this.style.cursor='pointer'; " oncommand="
+					if(getElementById('Ph.Option.Tab5.Radio1').selected==true) WriteStr('infoShow','0');
+					if(getElementById('Ph.Option.Tab5.Radio2').selected==true) WriteStr('infoShow','1');
+					if(getElementById('Ph.Option.Tab5.Radio3').selected==true) WriteStr('infoShow','2');
+					alert('&InBasic.Ph.Option.alert9;');
+				" />
+			</box>
+		</tabpanel>
+
+		<tabpanel  orient="vertical">
+			<box >
+				<label class="PhHeaderFont" flex="1"  value="&InBasic.Ph.Option.Tab5.lbl1;"   style="font-weight: Bold;"   />
+			</box>
+			<label value=" " />
+			<box flex="1"  orient="vertical">
+				<radiogroup id="Ph.Option.Tab6.RadioG">
+  					<colomb >
+  			  			<label value="      "   style="font-weight: Bold;"   />
+			  	  		<radio id="Ph.Option.Tab6.Radio1" label="&InBasic.Ph.Option.Tab5.lbl2;" accesskey="C" selected="true" oncommand="getElementById('PhStatusIMG').src='chrome://inbasicph/skin/InStatus.png';"/>
+  					</colomb>
+  					<colomb >
+  			  			<label value="      "   style="font-weight: Bold;"   />
+			  	  		<radio id="Ph.Option.Tab6.Radio2" label="&InBasic.Ph.Option.Tab5.lbl3;"  accesskey="P"  oncommand="getElementById('PhStatusIMG').src='chrome://inbasicph/skin/InPopUp.png';"/>
+  					</colomb>
+  					<colomb >
+  			  			<label value="      "   style="font-weight: Bold;"   />
+			  	  		<radio id="Ph.Option.Tab6.Radio3" label="&InBasic.Ph.Option.Tab5.lbl4;"  accesskey="T"  oncommand="getElementById('PhStatusIMG').src='';"/>
+  					</colomb>
+				</radiogroup>
+			</box>
+			<box align="right">
+				<button image="chrome://inbasicph/skin/save.png"  label="&InBasic.Ph.Option.Tab5.lbl5;" onmouseover="this.style.cursor='pointer'; " oncommand="
+					if(getElementById('Ph.Option.Tab6.Radio1').selected==true) WriteStr('LeftClick','0');
+					if(getElementById('Ph.Option.Tab6.Radio2').selected==true) WriteStr('LeftClick','1');
+					if(getElementById('Ph.Option.Tab6.Radio3').selected==true) WriteStr('LeftClick','2');
+					alert('&InBasic.Ph.Option.alert10;');
+				" />
+			</box>
+		</tabpanel>
+	</tabpanels>
+
+</tabbox>
+
+</window>
